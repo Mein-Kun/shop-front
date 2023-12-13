@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const instanse = axios.create({
-  url: 'http://localhost:3001',
+  url: 'https://landmotors-client.onrender.com',
   withCredentials: true,
-  baseURL: 'http://localhost:3000',
+  baseURL: 'https://landmotors-server.onrender.com',
   headers: { 'X-Requested-With': 'XMLHttpRequest' },
 })
 
