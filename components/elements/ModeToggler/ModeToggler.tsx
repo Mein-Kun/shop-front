@@ -22,7 +22,7 @@ const ModeToggler = () => {
       <input
         className={styles.theme__input}
         type="checkbox"
-        checked={mode === 'dark'}
+        checked={mode === 'light'}
         onChange={handleToggleMode}
       />
     </div>

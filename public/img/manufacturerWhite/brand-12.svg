@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 145 37" enable-background="new 0 0 140.8 39.8" xml:space="preserve" width="150" height="50">
+<rect x="84.9" y="0" fill="#ec0000" width="12.9" height="10.2"/>
+<polygon fill="#ec0000" points="5.6,0 0,10.3 40.1,10.3 43.9,0 "/>
+<polygon fill="#ec0000" points="11,18.1 2.9,39.8 16.7,39.8 24.8,18.1 "/>
+<polygon fill="#ec0000" points="40.2,18.1 32.1,39.8 45.9,39.8 54,18.1 "/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="140.8" height="39.8"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_" overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#ec0000" d="M65.1,10.3c2.1,0,3.9,1.7,3.9,3.9c0,2.2-1.7,3.9-3.9,3.9h-9.3l10.5,21.7h14.6   l-8.4-14.4c0,0,8.7-1.2,9.9-10.2c0,0,0.2-2.1,0-4.9C80.6,0,71.5,0,71.5,0h-24l-3.8,10.3H65.1z"/>
+</g>
+<polygon fill="#ec0000" points="84.9,18.1 84.9,39.8 97.8,39.8 108.4,18.1 "/>
+<polygon fill="#ec0000" points="109.6,18.1 109.6,39.8 122.1,39.8 132.3,18.1 "/>
+<polygon fill="#ec0000" points="106.2,0 101.3,10.3 120.3,10.3 120.3,0 "/>
+<polygon fill="#ec0000" points="128.3,0 124.3,10.3 136.1,10.3 140.8,0 "/>
+</svg>

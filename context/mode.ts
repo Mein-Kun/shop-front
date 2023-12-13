@@ -6,4 +6,4 @@ export const setMode = mode.createEvent<string>()
 
 export const $mode = mode
   .createStore<string>('light')
-  .on(setMode, (_: never, mode: never) => mode)
+  .on(setMode, (_, mode) => mode)

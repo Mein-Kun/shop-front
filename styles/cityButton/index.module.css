@@ -1,0 +1,57 @@
+.city {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.city:hover .city__text {
+  fill: #ec0000;
+  color: #ec0000;
+  transition: color 0.2s ease-in-out;
+}
+.city:hover .city__span > svg {
+  fill: #ec0000;
+  transition: fill 0.2s ease-in-out;
+}
+.city__span {
+  padding-top: 4px;
+  margin-right: 9px;
+}
+.city__span svg {
+  fill: #FAFBFC;
+  width: 11px;
+  height: 11px;
+  transition: fill 0.2s ease-in-out;
+}
+@media (max-width: 950px) {
+  .city__span svg {
+    fill: #2d2d2d;
+    width: 20px;
+    height: 20px;
+  }
+}
+.city__span.dark_mode svg {
+  fill: #f2f2f2;
+}
+.city__text {
+  position: relative;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.002em;
+  text-decoration-line: underline;
+  color: #FAFBFC;
+  transition: color 0.2s ease-in-out;
+}
+@media (max-width: 950px) {
+  .city__text {
+    font-size: 22px;
+    color: #2d2d2d;
+  }
+  .city__text.dark_mode {
+    color: #f2f2f2;
+  }
+}/*# sourceMappingURL=index.module.css.map */

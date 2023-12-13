@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html class="supports--no-js" lang="ru">
+<head>
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="theme-color" content="#fff324" />
+<title>Страница не найдена</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="canonical" href="/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/" />
+<script data-skip-moving="true">!function(e,A,n){var o=[],a=[],t={_version:"3.6.0",_config:{classPrefix:"supports--",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,A){var n=this;setTimeout(function(){A(n[e])},0)},addTest:function(e,A,n){a.push({name:e,fn:A,options:n})},addAsyncTest:function(e){a.push({name:null,fn:e})}},s=function(){};function i(e,A){return typeof e===A}s.prototype=t,s=new s;var r,l,f=A.documentElement,u="svg"===f.nodeName.toLowerCase();function c(e){var A=f.className,n=s._config.classPrefix||"";if(u&&(A=A.baseVal),s._config.enableJSClass){var o=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");A=A.replace(o,"$1"+n+"js$2")}s._config.enableClasses&&(A+=" "+n+e.join(" "+n),u?f.className.baseVal=A:f.className=A)}function p(e,A){if("object"==typeof e)for(var n in e)r(e,n)&&p(n,e[n]);else{var o=(e=e.toLowerCase()).split("."),a=s[o[0]];if(2==o.length&&(a=a[o[1]]),void 0!==a)return s;A="function"==typeof A?A():A,1==o.length?s[o[0]]=A:(!s[o[0]]||s[o[0]]instanceof Boolean||(s[o[0]]=new Boolean(s[o[0]])),s[o[0]][o[1]]=A),c([(A&&0!=A?"":"no-")+o.join("-")]),s._trigger(e,A)}return s}r=i(l={}.hasOwnProperty,"undefined")||i(l.call,"undefined")?function(e,A){return A in e&&i(e.constructor.prototype[A],"undefined")}:function(e,A){return l.call(e,A)},t._l={},t.on=function(e,A){this._l[e]||(this._l[e]=[]),this._l[e].push(A),s.hasOwnProperty(e)&&setTimeout(function(){s._trigger(e,s[e])},0)},t._trigger=function(e,A){if(this._l[e]){var n=this._l[e];setTimeout(function(){var e;for(e=0;e<n.length;e++)(0,n[e])(A)},0),delete this._l[e]}},s._q.push(function(){t.addTest=p}),s.addAsyncTest(function(){var e=[{uri:"data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",name:"webp"},{uri:"data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",name:"webp.alpha"},{uri:"data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",name:"webp.animation"},{uri:"data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",name:"webp.lossless"}],A=e.shift();function n(e,A,n){var o=new Image;function a(A){var a=!(!A||"load"!==A.type)&&1==o.width;p(e,"webp"===e&&a?new Boolean(a):a),n&&n(A)}o.onerror=a,o.onload=a,o.src=A}n(A.name,A.uri,function(A){if(A&&"load"===A.type)for(var o=0;o<e.length;o++)n(e[o].name,e[o].uri)})}),function(){var e,A,n,t,r,l;for(var f in a)if(a.hasOwnProperty(f)){if(e=[],(A=a[f]).name&&(e.push(A.name.toLowerCase()),A.options&&A.options.aliases&&A.options.aliases.length))for(n=0;n<A.options.aliases.length;n++)e.push(A.options.aliases[n].toLowerCase());for(t=i(A.fn,"function")?A.fn():A.fn,r=0;r<e.length;r++)1===(l=e[r].split(".")).length?s[l[0]]=t:(!s[l[0]]||s[l[0]]instanceof Boolean||(s[l[0]]=new Boolean(s[l[0]])),s[l[0]][l[1]]=t),o.push((t?"":"no-")+l.join("-"))}}(),c(o),delete t.addTest,delete t.addAsyncTest;for(var d=0;d<s._q.length;d++)s._q[d]();e.Modernizr=s}(window,document);</script>
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+
+
+<link href="/bitrix/js/socialservices/css/ss.min.css?16534653944686" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/magnific-popup.min.css?16563268305435" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/normalize.min.css?16563268306647" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/nouislider.min.css?15066784673557" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/select2.min.css?150667846715091" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/slick.min.css?16563268301319" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/main.css?1701248322246957" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/hack.min.css?165632683010603" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/datepicker.min.css?150667846712257" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/fotorama.min.css?165632683015146" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/new-style.css?1701248278110000" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/mobile.css?1699596099132565" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/css/style_head_ot.min.css?16563268303259" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/components/sotbit/regions.choose/templates/mobile/style.css?16233076826669" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/components/sotbit/regions.choose/.default/style.min.css?16563268315447" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/components/bitrix/catalog.section.list/header_menu_catalog2019/style.css?16805106441648" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/components/arturgolubev/search.title/.default/style.min.css?16563268301905" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/styles.css?17000170901937" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/akb22_index_19102016/template_styles.min.css?16563268302179" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+
+
+
+
+            <link href="/favicon.ico" rel="shortcut icon" />
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+<script src="/include/cdek_delivery/widget/widjet.js" id="ISDEKscript" data-skip-moving="true"></script>
+
+
+
+</head>
+	<body class="vapupload vapresize_cache vapiblock vapfnyvk16a0cd30msurc0apwzjhta7424i vap533_533_0 vapcount6">
+
+<div id="vaptest" style="display:none;">
+</div>
+<div id="teststatus"></div>
+<div class="mobileheader onlymobile js-mobile-header">
+	<div class="mobileheader__inner">
+        <a class="vapbackurl" onclick="history.back();return (history.length==0)
+;" href="/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/"></a>        <a href="#" class="mobilemenu" id="menuopen_hide"></a>
+        <a href="/" class="header__logo">
+            <img src="/bitrix/templates/akb22_index_19102016/img/logo.png" alt="">
+        </a>
+        <a href="tel:+7 (3852) 50-20-20" class="header__tel"><b>+7 (3852) 50-20-20</b>
+        </a>
+        <!--'start_frame_cache_W3XK6f'-->    <div class="select-city_mobile-wrap">
+        <div class="select-city_mobile__block">
+            <span class="select-city_mobile__block__text">Ваш город: </span>
+            <span class="select-city_mobile__block__text-city">Барнаул</span>
+        </div>
+    </div>
+    <div class="select-city_mobile__dropdown-wrap"
+         style="display:none;">
+        <div class="select-city_mobile__dropdown">
+            <div class="select-city_mobile__dropdown__title-wrap">
+				<span class="select-city_mobile__dropdown__title">Ваш город                    Барнаул?</span>
+            </div>
+            <div class="select-city_mobile__dropdown__choose-wrap">
+                    <span class="select-city_mobile__dropdown__choose__yes select-city_mobile__dropdown__choose"
+                          data-id="1">Да</span>
+                <span class="select-city_mobile__dropdown__choose__no select-city_mobile__dropdown__choose">Нет</span>
+            </div>
+        </div>
+    </div>
+    <div class="select-city_mobile__modal">
+        <div class="select-city_mobile__modal-wrap">
+            <div class="select-city_mobile__close"></div>
+            <div class="select-city_mobile__modal__title-wrap">
+                <p class="select-city_mobile__modal__title">Ваш город:
+                    <span id="select-city_mobile__js">Барнаул</span></p>
+            </div>
+            <div class="select-city_mobile__modal__list-wrap">
+                <span class="select-city_mobile__modal__list__title">Неправильно определили? Выберите из списка:</span>
+            </div>
+            <div class="select-city_mobile__modal__list">
+                                    <p class="select-city_mobile__modal__list__item" data-index="0">Барнаул</p>
+                                        <p class="select-city_mobile__modal__list__item" data-index="1">Томск</p>
+                                        <p class="select-city_mobile__modal__list__item" data-index="2">Новосибирск</p>
+                                        <p class="select-city_mobile__modal__list__item" data-index="3">Рубцовск</p>
+                                        <p class="select-city_mobile__modal__list__item" data-index="4">Новокузнецк</p>
+                                        <p class="select-city_mobile__modal__list__item" data-index="5">Новоалтайск</p>
+                                        <p class="select-city_mobile__modal__list__item" data-index="6">Камень-на-Оби</p>
+                                        <p class="select-city_mobile__modal__list__item" data-index="7">Заринск</p>
+                                </div>
+            <div class="select-city_mobile__modal__submit-wrap">
+                <div class="select-city_mobile__modal__submit__title-wrap">
+                    <span class="select-city_mobile__modal__submit__title">Или укажите в строке ниже:</span>
+                </div>
+                <div class="select-city_mobile__modal__submit__block-wrap">
+                    <div class="select-city_mobile__modal__submit__block-wrap__input_wrap">
+                        <div class="select-city_mobile__modal__submit__block-wrap__input_wrap_error"
+                             style="display:none;">Указанный регион не найден</div>
+                        <input value="" type="text" class="select-city_mobile__modal__submit__input">
+                    </div>
+                    <input type="submit" name="submit"
+                           value="Выбрать"
+                           class="select-city_mobile__modal__submit__btn">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal__overlay_mobile"></div>
+        <!--'end_frame_cache_W3XK6f'-->        <div class="mobileheader__icon">
+            <a href="tel:+7 (3852) 50-20-20"  id="mobilephonecall"></a>
+			<a class="button button--small button--trans_black_b  open_modal_window mobile_heder_callback" data-action="callback">
+				Заказать звонок
+			</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+	
+<div class="mobilefooter onlymobile">
+    	<span class="mobile_basket"></span>
+</div>
+<div id="vapoverlay" class="onlymobile"></div>
+<div id="vapmobilemenu" class="onlymobile vapshowhide">
+<a href="/personal/profile/" class="vapprofile"><span class="vapleftmtneicon"></span>
+	Мой кабинет</a>
+<div class="mobmefmenuhead">
+ <a href="/catalog/" style="background-image: url(/upload/catalog.jpg);background-repeat: round;"><img src="/upload/mobico/katalog.svg" alt="магазин">
+	<div class="mobmefmenuheadtitle">
+		 Каталог
+	</div>
+ </a><a href="/services/" style="background-image: url(/upload/autoservice.jpg);background-repeat: round;"><img src="/upload/mobico/avtoservis.svg" alt="сервис">
+	<div class="mobmefmenuheadtitle">
+		 Автосервис
+	</div>
+ </a><a href="/used-batteries/" style="background-image: url(/upload/brand.jpg);background-repeat: round;"><img src="/upload/mobico/brend.svg" alt="БУ">
+	<div class="mobmefmenuheadtitle">
+		 Приём АКБ
+	</div>
+ </a><a href="/entry-to-service/" style="background-image: url(/upload/enter_service.jpg);background-repeat: round;"><img src="/upload/mobico/zapis_v_servis.svg" alt="запись">
+	<div class="mobmefmenuheadtitle">
+		 Запись в сервис
+	</div>
+ </a> <a href="/personal/profile/orders/" style="background-image: url(/upload/history.jpg);background-repeat: round;"><img src="/upload/mobico/istoria_pokupok.svg" alt="история">
+	<div class="mobmefmenuheadtitle">
+		 История покупок
+	</div>
+ </a>
+<a href="/servicebook/" style="background-image: url(/upload/book.jpg);background-repeat: round;"><img alt="сервисная книга" src="/upload/mobico/servisna_kniga.svg">
+	<div class="mobmefmenuheadtitle">
+		 Сервисная книга
+	</div>
+ </a><a href="/personal/profile/bonus/" style="background-image: url(/upload/bonus.jpg);background-repeat: round;"><img src="/upload/mobico/bonus.svg" alt="Бонусы">
+	<div class="mobmefmenuheadtitle">
+		 Бонусная карта
+	</div>
+ </a><a href="/action/" style="background-image: url(/upload/action.jpg);background-repeat: round;"><img src="/upload/mobico/akzii.svg" alt="Акции">
+	<div class="mobmefmenuheadtitle">
+		 Акции
+	</div>
+ </a>
+<a href="/vacancies/" style="background-image: url(/upload/Enter.jpg);background-repeat: round;"><img src="/upload/mobico/kolokolcik.svg" alt="Вакансии">
+	<div class="mobmefmenuheadtitle">
+		 Вакансии
+	</div>
+ </a>
+<a href="/apps/android.apk" rel="nofollow" target="_blank" style="background-image: url(/upload/GPLogo.png); background-repeat: round;">
+</a>
+<br><br>
+</div>
+</div>							
+<div id="underslider" class="onlymobile">
+
+</div>
+
+<div class="overlay hide">
+		<div class="form form_narrow modal">
+        <button class="modal__close close">
+			</button>
+            <div class="modal_form_inner"></div>
+		
+		</div>
+	</div>
+
+
+	<div class="header">
+		<div class="header__top">
+			<div class="wrap">
+				<div class="header__city">
+			<!--		<a class="header__link header__link--city open_modal_window" data-action="city_select"> -->
+						<span><!--'start_frame_cache_N3JaUh'-->    <div class="select-city-wrap">
+        <div class="select-city__block">
+            <span class="select-city__block__text">Ваш город: </span>
+            <span class="select-city__block__text-city">Барнаул</span>
+        </div>
+        <div class="select-city__dropdown-wrap"
+             style="display:block;">
+            <div class="select-city__dropdown">
+                <div class="select-city__dropdown__title-wrap">
+				<span class="select-city__dropdown__title">Ваш город                    Барнаул?</span>
+                </div>
+                <div class="select-city__dropdown__choose-wrap">
+                    <span class="select-city__dropdown__choose__yes select-city__dropdown__choose"
+                          data-id="1">Да</span>
+                    <span class="select-city__dropdown__choose__no select-city__dropdown__choose">Нет</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="select-city__modal">
+        <div class="select-city__modal-wrap">
+            <div class="select-city__close"></div>
+            <div class="select-city__modal__title-wrap">
+                <p class="select-city__modal__title">Ваш город:
+                    <span id="select-city__js">Барнаул</span></p>
+            </div>
+            <div class="select-city__modal__list-wrap">
+                <span class="select-city__modal__list__title">Неправильно определили? Выберите из списка:</span>
+            </div>
+            <div class="select-city__modal__list">
+                                    <p class="select-city__modal__list__item" data-index="0">Барнаул</p>
+                                        <p class="select-city__modal__list__item" data-index="1">Томск</p>
+                                        <p class="select-city__modal__list__item" data-index="2">Новосибирск</p>
+                                        <p class="select-city__modal__list__item" data-index="3">Рубцовск</p>
+                                        <p class="select-city__modal__list__item" data-index="4">Новокузнецк</p>
+                                        <p class="select-city__modal__list__item" data-index="5">Новоалтайск</p>
+                                        <p class="select-city__modal__list__item" data-index="6">Камень-на-Оби</p>
+                                        <p class="select-city__modal__list__item" data-index="7">Заринск</p>
+                                </div>
+            <div class="select-city__modal__submit-wrap">
+                <div class="select-city__modal__submit__title-wrap">
+                    <span class="select-city__modal__submit__title">Или укажите в строке ниже:</span>
+                </div>
+                <div class="select-city__modal__submit__block-wrap">
+                    <div class="select-city__modal__submit__block-wrap__input_wrap">
+                        <div class="select-city__modal__submit__block-wrap__input_wrap_error"
+                             style="display:none;">Указанный регион не найден</div>
+                        <input value="" type="text" class="select-city__modal__submit__input">
+                    </div>
+                    <input type="submit" name="submit"
+                           value="Выбрать"
+                           class="select-city__modal__submit__btn">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal__overlay"></div>
+        <!--'end_frame_cache_N3JaUh'--></span>	
+					<!--</a>-->
+				</div>
+				<div class="header__misc">
+					<a href="/delivery/" class="header__link header__link--delivery">
+						<span>Бесплатная доставка</span>
+					</a>
+					<a href="/addresses-of-shops/" class="header__link header__link--shops">
+						<span>Магазины</span>
+					</a>
+				</div>
+				
+                        
+
+		<!--noindex-->
+	<div class="header__user">
+
+		<div class="container">
+			<a class="header__link header__link--sign-in" href='/reg/?url=/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg' onclick="yaCounter38423990.reachGoal('registrazia'); return true;">
+				<span>Регистрация</span>
+			</a>
+			<a class="header__link header__link--log-in  open_modal_window" data-action="login">
+				<span>Вход в личный кабинет</span>
+			</a>
+		</div>
+	</div>
+
+	<!--/noindex-->
+<!-- -->
+                
+					
+				
+			</div>
+		</div>
+		<div class="header__middle">
+			<div class="wrap">
+				<div class="header__brand">
+					<a href="/" class="header__logo">
+						<img src="/bitrix/templates/akb22_index_19102016/img/logo.png" alt="">
+					</a>
+					<div class="header__description">
+						Интернет-магазин запчастей<br> и аккумуляторов
+					</div>
+				</div>
+				<div class="header__contacts">
+					<div class="header__phone">
+						<b>+7 (3852) 50-20-20</b><br>
+					</div>
+					<a  class="button button--small button--trans_black_b  open_modal_window"  data-action="callback">
+						Заказать звонок
+					</a>
+				</div>
+				<div class="header__cart cart-preview">
+<!-- NEW CODE -->
+<div class="header__actions">
+    <div class="header__actions-item">
+        <a href="/catalog/compare/" class="header__actions-link"><span class="header__actions-count compare">0</span><img src="/img/compare.png" width="32" alt=""></a>
+    </div>
+    <div class="header__actions-item js--toggle-drop ajax_basket_delay">
+        <a href="/personal/basket/" class="header__actions-link">
+            <span class="header__actions-count delay">0</span><img src="/img/heart.png" width="32" alt="">
+        </a>
+        <div class="header__drop header__drop_later ">
+            <div class="header__drop-inner">
+                <div class="header__drop-head">
+                    <div class="header__drop-title">Отложенные товары</div>
+                    <div class="header__drop-clear"><a href="javascript:void(0);" onclick="deleteAllBasketItems();"><img src="/img/delete.png" width="16" alt=""> Очистить список</a></div>
+                </div>
+
+                <div class="header__drop-content ajax_basket_delay_select">
+                    <div class="header__drop-empty">
+                        <img src="/img/empty.png" width="64" alt="">
+                        <strong>Ваш список отложенных товаров пуст</strong>
+                        <p>Чтобы обновить свой вишлист, перейдите в каталог или на главную.</p>
+                    </div>
+                </div>
+
+                <div class="header__drop-down">
+                    <div class="header__drop-result cart-preview__sum">Итого:<span class="basket_sum">0 руб.</span></div>
+                    <a href="/personal/order/make/?BUY_WITHOUT_REGISTER=Y" class="button button--small">Купить без регистрации</a>
+                    <a href="/personal/basket/" class="button button--small button--yellow">Перейти в корзину</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__actions-item js--toggle-drop ajax_basket_items">
+        <a href="/personal/basket/" class="header__actions-link">
+            <span class="header__actions-count basket">0</span><img src="/img/cart.png" width="32" alt="">
+        </a>
+        <div class="header__drop header__drop_cart">
+            <div class="header__drop-inner">
+                <div class="header__drop-head">
+                    <div class="header__drop-title">Корзина</div>
+                    <div class="header__drop-clear"><a href="javascript:void(0);" onclick="deleteAllBasketItems();"><img src="/img/delete.png" width="16" alt=""> Очистить список</a></div>
+                </div>
+
+                <div class="header__drop-content ajax_basket_items_select">
+                    <img src="/img/empty.png" width="64" alt="">
+                    <strong>Ваш список отложенных товаров пуст</strong>
+                    <p>Чтобы обновить свой вишлист, перейдите в каталог или на главную.</p>
+                </div>
+
+                <div class="header__drop-down">
+                    <div class="header__drop-result cart-preview__sum">Итого: <span class="basket_sum">0 руб.</span></div>
+                    <a href="/personal/order/make/?BUY_WITHOUT_REGISTER=Y" class="button button--small">Купить без регистрации</a>
+                    <a href="/personal/basket/" class="button button--small button--yellow">Перейти в корзину</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- NEW CODE -->				</div>
+			</div>
+                        		</div>
+	</div>
+	<div class="nav l-nav">
+		<div class="wrap">
+			<div class="nav__controls">
+				<a href="/catalog/" class="nav__item nav__item--shop nav__item--drop js-drop-control">
+					Интернет-магазин
+				</a>
+				<a href="/avto-servis/" class="nav__item nav__item--remont">
+					Сервис
+				</a>
+				<a href="/used-batteries/" class="nav__item nav__item--sales">
+					Обслуживание АКБ
+				</a>
+				<a href="/entry-to-service/"  class="nav__item nav__item--service-appeal">
+					Запись в автосервис
+				</a>
+				<a href="/action/" class="nav__item nav__item--procent">
+				Акции
+				</a>
+				<a href="/vacancies/" class="nav__item nav__item--customer">
+				Вакансии
+				</a>
+
+			</div>
+            
+			<div class="nav__search js-header-search">
+				Поиск
+			</div>
+    
+            
+		</div>
+
+    
+		<div class="l-drop-container">
+			<div class="drop-container">
+				<div class="wrap">
+				   <div class="drop-b">
+	<div class="drop-b__inner">
+													<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/df8/cojj98u89n9tkgk7yvwdwtabxqz5yvcy/akb.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/akkumulyatory/">Аккумуляторы</a>&nbsp;<span>(567)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/akkumulyatory/avtomobilnye-akkumulyatory/">Автомобильные аккумуляторы</a>&nbsp;<span>(404)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/akkumulyatory/akkumulyatory-dlya-mototekhniki/">Аккумуляторы для мототехники</a>&nbsp;<span>(96)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/akkumulyatory/tyagovye-akkumulyatory/">Тяговые аккумуляторы</a>&nbsp;<span>(50)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/akkumulyatory/akkumulyatory-dlya-ibp/">Аккумуляторы для ИБП</a>&nbsp;<span>(72)</span></div>
+																					</div>
+									</div>
+																																				<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/73f/soputstvuyushchie-akb.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/soputstvuyushchie-akb-tovary/">Сопутствующие АКБ товары</a>&nbsp;<span>(216)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/areometry/">Ареометры</a>&nbsp;<span>(6)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/voda-distillirovannaya/">Вода дистиллированная</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/zazhimy/">Зажимы</a>&nbsp;<span>(4)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/zaryadnye-puskovye-ustroystva-dlya-avtomobilya/">Зарядные, пусковые устройства для автомобиля</a>&nbsp;<span>(65)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/klemmy-dlya-akb/">Клеммы для АКБ</a>&nbsp;<span>(47)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/kovriki-pod-akkumulyator/">Коврики под аккумулятор</a>&nbsp;<span>(1)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/kreplenie-dlya-akkumulyatora/">Крепление для аккумулятора</a>&nbsp;<span>(10)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/nagruzochnye-vilki-/">Нагрузочные вилки </a>&nbsp;<span>(6)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/provoda-prikurivaniya-starter-kabeli/">Провода прикуривания (стартер-кабели)</a>&nbsp;<span>(37)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/soedinitelnye-provoda/">Соединительные провода</a>&nbsp;<span>(27)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/soputstvuyushchie-akb-tovary/elektrolit-dlya-akkumulyatora/">Электролит для аккумулятора</a>&nbsp;<span>(8)</span></div>
+																					</div>
+									</div>
+																																																																																	<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/248/Maslo.jpg)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/masla-i-smazki/">Масла и смазки</a>&nbsp;<span>(1986)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/motornye-masla-pvl-legkovye/">Моторные масла PVL (легковые)</a>&nbsp;<span>(711)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/motornye-masla-svl-gruzovye/">Моторные масла СVL (грузовые)</a>&nbsp;<span>(219)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/maslo-dlya-moto-gidro-i-sadovoy-tekhniki/">Масло для мото, гидро и садовой техники</a>&nbsp;<span>(116)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/transmissionnye-masla/">Трансмиссионные масла</a>&nbsp;<span>(385)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/masla-spetsialnogo-naznacheniya/">Масла специального назначения</a>&nbsp;<span>(25)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/gidravlicheskie-masla/">Гидравлические масла</a>&nbsp;<span>(83)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/industrialnye-masla/">Индустриальные масла</a>&nbsp;<span>(90)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/emkosti-dlya-masla-pet/">Емкости для масла, ПЭТ</a>&nbsp;<span>(10)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/smazki/">Смазки</a>&nbsp;<span>(217)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/zhidkosti-gur/">Жидкости ГУР</a>&nbsp;<span>(13)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/masla-i-smazki/raskhodniki-dlya-masla-smazki/">Расходники для масла, смазки</a>&nbsp;<span>(165)</span></div>
+																					</div>
+									</div>
+																																																																																																					<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/51f/filtry.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/filtry_avtomobilnye/">Фильтры автомобильные</a>&nbsp;<span>(3693)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/filtry_avtomobilnye/vozdushnye_filtry/">Воздушные фильтры</a>&nbsp;<span>(1347)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/filtry_avtomobilnye/maslyanye_filtry/">Масляные фильтры</a>&nbsp;<span>(968)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/filtry_avtomobilnye/salonnye_filtry/">Салонные фильтры</a>&nbsp;<span>(638)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/filtry_avtomobilnye/toplivnye_filtry/">Топливные фильтры</a>&nbsp;<span>(653)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/filtry_avtomobilnye/syemniki_dlya_filtrov/">Съёмники для фильтров</a>&nbsp;<span>(43)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/filtry_avtomobilnye/prochie_filtry/">Прочие фильтры</a>&nbsp;<span>(55)</span></div>
+																					</div>
+									</div>
+																																														<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/785/aksessuary.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/avtoakssesuary/">Автоакссесуары</a>&nbsp;<span>(2358)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/avtokresla/">Автокресла</a>&nbsp;<span>(33)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/aksessuary-dlya-mobilnykh-ustroystv/">Аксессуары для мобильных устройств</a>&nbsp;<span>(74)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/fm-transmittery-modulyatory-mp3-pleery/">FM трансмиттеры, модуляторы, MP3 плееры</a>&nbsp;<span>(6)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/avariynye-znaki/">Аварийные знаки</a>&nbsp;<span>(2)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/avtoaptechki/">Автоаптечки</a>&nbsp;<span>(4)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/avtoutepliteli/">Автоутеплители</a>&nbsp;<span>(28)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/bryzgoviki_avto/">Брызговики</a>&nbsp;<span>(52)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/videoregistratory/">Видеорегистраторы</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/dopolnitelnye-zerkala/">Дополнительные зеркала</a>&nbsp;<span>(3)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/kolpaki-na-kolyesa/">Колпаки на колёса</a>&nbsp;<span>(30)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/antistatiki/">Антистатики</a>&nbsp;<span>(3)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/aromatizatory-dekorativnye-izdeliya/">Ароматизаторы, декоративные изделия</a>&nbsp;<span>(401)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/gazovye-ballonchiki-gorelki-plitki/">Газовые баллончики, горелки, плитки</a>&nbsp;<span>(9)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/zazhigalki/">Зажигалки</a>&nbsp;<span>(1)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/deflektory-spoylery-na-bokovye-stekla/">Дефлекторы, спойлеры на боковые стекла</a>&nbsp;<span>(40)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/znaki-na-steklo/">Знаки на стекло</a>&nbsp;<span>(22)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/kanistry/">Канистры</a>&nbsp;<span>(22)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/kovriki-salona/">Коврики салона</a>&nbsp;<span>(278)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/kompressory/">Компрессоры</a>&nbsp;<span>(47)</span></div>
+																																															<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/lopaty-avtomobilnye/">Лопаты автомобильные</a>&nbsp;<span>(6)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/nabory-avtomobilista/">Наборы автомобилиста</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/konteynery-dlya-musora/">Контейнеры для мусора</a>&nbsp;<span>(10)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/nakladki-na-pedali-porogi-dveri-kuzov/">Накладки на педали, пороги, двери, кузов</a>&nbsp;<span>(2)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/signal-avtomobilnyy/">Сигнал автомобильный</a>&nbsp;<span>(3)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/shchyetki/">Щётки</a>&nbsp;<span>(67)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/shchetki-stekloochistitelya/">Щетки стеклоочистителя</a>&nbsp;<span>(197)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/setka-reshyetka-v-bamper/">Сетка, решётка в бампер</a>&nbsp;<span>(7)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/ognetushiteli/">Огнетушители</a>&nbsp;<span>(9)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/opletki/">Оплетки</a>&nbsp;<span>(267)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/organayzery-nakidki-sumki/">Органайзеры: накидки, сумки</a>&nbsp;<span>(18)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/ornamenty-i-emblemy-flagi/">Орнаменты и эмблемы, флаги</a>&nbsp;<span>(4)</span></div>
+																																															<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/ochki-polyarizatsionnye/">Очки поляризационные</a>&nbsp;<span>(50)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/trosy-elementy-styazhki-gruzov/">Тросы, элементы стяжки грузов</a>&nbsp;<span>(82)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/kholodilniki/">Холодильники</a>&nbsp;<span>(4)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/pylesosy/">Пылесосы</a>&nbsp;<span>(7)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/razvetviteli-prikurivatelya-prikurivateli/">Разветвители прикуривателя, прикуриватели</a>&nbsp;<span>(4)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/ramki-nomernogo-znaka-krepleniya/">Рамки номерного знака, крепления</a>&nbsp;<span>(63)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/remkoplety-beskamernykh-shin/">Ремкоплеты бескамерных шин</a>&nbsp;<span>(9)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/ruchki-chekhly-kpp-ruchki-na-rul/">Ручки, чехлы КПП, ручки на руль</a>&nbsp;<span>(3)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/shumo-vibroizolyatsiya/">Шумо-виброизоляция</a>&nbsp;<span>(19)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/salfetki-gubki/">Салфетки, губки</a>&nbsp;<span>(112)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/svetovozvrashchayushchie-ustroystva/">Световозвращающие устройства</a>&nbsp;<span>(24)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/tenty-chekhly-na-avtomobil/">Тенты (чехлы) на автомобиль</a>&nbsp;<span>(25)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/tovary-dlya-piknika/">Товары для пикника</a>&nbsp;<span>(24)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/fonari-lampy/">Фонари, лампы</a>&nbsp;<span>(17)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/tsepi-protivoskolzheniya/">Цепи противоскольжения</a>&nbsp;<span>(6)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/chekhly-dlya-khraneniya-koles/">Чехлы для хранения колес</a>&nbsp;<span>(2)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/chekhly-na-sidenya-nakidki-podgolovniki/">Чехлы на сиденья, накидки, подголовники</a>&nbsp;<span>(269)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtoakssesuary/shtorki-ekrany-na-stekla/">Шторки, экраны на стекла</a>&nbsp;<span>(24)</span></div>
+																					</div>
+									</div>
+																																																																																																																																																																																																																																																																																																																																																																									<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/a5f/avtokhimiya.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/avtokhimiya-avtokosmetika/">Автохимия, автокосметика</a>&nbsp;<span>(690)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/avtomobilnaya-polirol/">Автомобильная полироль</a>&nbsp;<span>(86)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/avtomobilnye-ochistiteli-promyvki/">Автомобильные очистители, промывки</a>&nbsp;<span>(160)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/avtomobilnye-prisadki/">Автомобильные присадки</a>&nbsp;<span>(79)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/avtomobilnyy-kley-germetik-pasta/">Автомобильный клей, герметик, паста</a>&nbsp;<span>(106)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/sredstva-ot-komarov/">Средства от комаров</a>&nbsp;<span>(8)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/avtomobilnyy-shampun/">Автомобильный шампунь</a>&nbsp;<span>(44)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/antikorroziynaya-zashchita-avtomobilya/">Антикоррозийная защита автомобиля</a>&nbsp;<span>(38)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/antizapotevateli/">Антизапотеватели</a>&nbsp;<span>(2)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/bystryy-zapusk/">Быстрый запуск</a>&nbsp;<span>(19)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/zhidkost-dlya-rozzhiga/">Жидкость для розжига</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/lakokrasochnye-materialy/">Лакокрасочные материалы</a>&nbsp;<span>(28)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/kraski/">Краски</a>&nbsp;<span>(116)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/avtokhimiya-avtokosmetika/zhidkaya-rezina/">Жидкая резина</a>&nbsp;<span>(7)</span></div>
+																					</div>
+									</div>
+																																																																																																																																																																																																																																																																																									<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/18d/instrumenty.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/instrumenty/">Инструменты</a>&nbsp;<span>(1006)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/mufty-i-shtutsera/">Муфты и штуцера</a>&nbsp;<span>(6)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/produvochnye-pistolety/">Продувочные пистолеты</a>&nbsp;<span>(2)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/zubilo/">Зубило</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/izmeritelnyy-instrument/">Измерительный инструмент</a>&nbsp;<span>(4)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/instrument-v-lozhementakh/">Инструмент в ложементах</a>&nbsp;<span>(2)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/multimetr/">Мультиметр</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/passatizhi/">Пассатижи</a>&nbsp;<span>(13)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/bity/">Биты</a>&nbsp;<span>(53)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/bokorezy/">Бокорезы</a>&nbsp;<span>(9)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/vorotki/">Воротки</a>&nbsp;<span>(14)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/gaykovert-multiplikator/">Гайковерт-мультипликатор</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/golovki/">Головки</a>&nbsp;<span>(285)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/diski/">Диски</a>&nbsp;<span>(14)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/dlinnogubtsy_ploskogubtsy_passatizhi/">Длинногубцы</a>&nbsp;<span>(7)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/shlangi/">Шланги</a>&nbsp;<span>(12)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/shestigranniki/">Шестигранники</a>&nbsp;<span>(19)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/domkraty/">Домкраты</a>&nbsp;<span>(28)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/drugie-instrumenty/">Другие инструменты</a>&nbsp;<span>(30)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/kardany/">Карданы</a>&nbsp;<span>(16)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/strakhovochnye-opory/">Страховочные опоры</a>&nbsp;<span>(4)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/klyuchi/">Ключи</a>&nbsp;<span>(280)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/kuvaldy/">Кувалды</a>&nbsp;<span>(6)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/manometry/">Манометры</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/molotki/">Молотки</a>&nbsp;<span>(10)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/montazhki/">Монтажки</a>&nbsp;<span>(3)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/nabory-instrumentov/">Наборы инструментов</a>&nbsp;<span>(29)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/nakonechniki-nasosa/">Наконечники насоса</a>&nbsp;<span>(3)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/otvertki/">Отвертки</a>&nbsp;<span>(77)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/prinadlezhnosti-dlya-payki/">Принадлежности для пайки</a>&nbsp;<span>(18)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/ruletki/">Рулетки</a>&nbsp;<span>(12)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/udliniteli-dlya-vorotka/">Удлинители для воротка</a>&nbsp;<span>(16)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/shpritsy/">Шприцы</a>&nbsp;<span>(34)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/magnity/">Магниты</a>&nbsp;<span>(5)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/instrumenty/nabor-shchupov/">Набор щупов</a>&nbsp;<span>(5)</span></div>
+																					</div>
+									</div>
+																																																																																																																																																																																																														<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/03d/raskhodnye-materialy.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/raskhodnye-materialy/">Расходные материалы</a>&nbsp;<span>(166)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/raskhodnye-materialy/tavotnitsa/">Тавотница</a>&nbsp;<span>(8)</span></div>
+																																															<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/raskhodnye-materialy/izolenta/">Изолента</a>&nbsp;<span>(26)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/raskhodnye-materialy/perchatki/">Перчатки</a>&nbsp;<span>(19)</span></div>
+																																															<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/raskhodnye-materialy/skotch-dvustoronniy/">Скотч двусторонний</a>&nbsp;<span>(22)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/raskhodnye-materialy/khomuty/">Хомуты</a>&nbsp;<span>(91)</span></div>
+																					</div>
+									</div>
+																																																			<div class="drop-b__item">
+					<div class="drop-b__head" style="margin:0;">
+						<div style="background-image:url(/upload/uf/af4/stekloomyvayka.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/stekloomyvayushchaya-zhidkost/">Стеклоомывающая жидкость</a>&nbsp;<span>(35)</span></div>
+					</div>
+									</div>
+																<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/258/dvigatel.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/zapchasti/">Запчасти</a>&nbsp;<span>(15786)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/avtokrepyezh/">Автокрепёж</a>&nbsp;<span>(1004)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/bolt-masloslivnoy-prokladka-masloslivnogo-bolta/">Болт маслосливной. Прокладка маслосливного болта</a>&nbsp;<span>(86)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/vykhlopnaya-sistema/">Выхлопная система</a>&nbsp;<span>(231)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/kuzov-i-optika/">Кузов и оптика</a>&nbsp;<span>(89)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/podveska/">Подвеска</a>&nbsp;<span>(4225)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/podogrevatel-tosola/">Подогреватель тосола</a>&nbsp;<span>(67)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/rulevoe-upravlenie/">Рулевое управление</a>&nbsp;<span>(748)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/salon/">Салон</a>&nbsp;<span>(136)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/sistema-grm/">Система ГРМ</a>&nbsp;<span>(548)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/sistema-dvigatelya-datchiki-dvigatelya/">Система двигателя, датчики двигателя</a>&nbsp;<span>(1568)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/sistema-zazhiganiya/">Система зажигания</a>&nbsp;<span>(1288)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/sistema-navesnogo-oborudovaniya/">Система навесного оборудования</a>&nbsp;<span>(1032)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/sistema-okhlazhdeniya/">Система охлаждения</a>&nbsp;<span>(851)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/toplivnaya-sistema/">Топливная система</a>&nbsp;<span>(208)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/tormoznaya-sistema/">Тормозная система</a>&nbsp;<span>(2605)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/transmissiya/">Трансмиссия</a>&nbsp;<span>(2291)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/zapchasti/elektrooborudovanie_1/">Электрооборудование</a>&nbsp;<span>(85)</span></div>
+																					</div>
+									</div>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		<div class="drop-b__item">
+					<div class="drop-b__head" style="margin:0;">
+						<div  class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/bonusnye-tovary/">Бонусные товары</a></div>
+					</div>
+									</div>
+																<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/dfb/instrumenty.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/pnevmaticheskiy-instrument/">Пневматический инструмент</a>&nbsp;<span>(101)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/pnevmaticheskiy-instrument/pnevmoinstrument/">Пневмоинструмент</a>&nbsp;<span>(21)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/pnevmaticheskiy-instrument/remkomplekty/">Ремкомплекты</a>&nbsp;<span>(65)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/pnevmaticheskiy-instrument/udarnye-golovki/">Ударные головки</a>&nbsp;<span>(3)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/pnevmaticheskiy-instrument/shlangi-vozdushnye/">Шланги воздушные</a>&nbsp;<span>(12)</span></div>
+																					</div>
+									</div>
+																																				<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/8f0/okhlazhdayushchaya_zhidkost.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/tekhnicheskie-zhidkosti-sistemy-okhlazhdeniya/">Технические жидкости системы охлаждения</a>&nbsp;<span>(210)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/tekhnicheskie-zhidkosti-sistemy-okhlazhdeniya/teplonositel/">Теплоноситель</a>&nbsp;<span>(3)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/tekhnicheskie-zhidkosti-sistemy-okhlazhdeniya/antifriz/">Антифриз</a>&nbsp;<span>(167)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/tekhnicheskie-zhidkosti-sistemy-okhlazhdeniya/mochevina/">Мочевина</a>&nbsp;<span>(7)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/tekhnicheskie-zhidkosti-sistemy-okhlazhdeniya/rastvoriteli/">Растворители</a>&nbsp;<span>(26)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/tekhnicheskie-zhidkosti-sistemy-okhlazhdeniya/freon-zapravka-konditsionerov/">Фреон (заправка кондиционеров)</a>&nbsp;<span>(7)</span></div>
+																					</div>
+									</div>
+																																									<div class="drop-b__item">
+					<div class="drop-b__head" style="margin:0;">
+						<div style="background-image:url(/upload/uf/58a/podveska.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/tormoznye_zhidkosti/">Тормозные жидкости</a>&nbsp;<span>(18)</span></div>
+					</div>
+									</div>
+																<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/1d8/elektrooborudovanie.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/">Электрооборудование автомобиля и системы запуска</a>&nbsp;<span>(1310)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/avtolampy/">Автолампы</a>&nbsp;<span>(572)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/avtosignalizatsiya/">Автосигнализация</a>&nbsp;<span>(8)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/datchiki_1/">Датчики</a>&nbsp;<span>(182)</span></div>
+																																															<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/svechi_zazhiganiya/">Свечи зажигания</a>&nbsp;<span>(384)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/svechi_nakalivaniya/">Свечи накаливания</a>&nbsp;<span>(10)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/sistemy_zapuska/">Системы запуска</a>&nbsp;<span>(54)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/elektrooborudovanie/">Электрооборудование</a>&nbsp;<span>(190)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/predokhraniteli_1/">Предохранители</a>&nbsp;<span>(89)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elektrooborudovanie_avtomobilya_i_sistemy_zapuska/vebasto_i_komplektuyushchie/">Вебасто и комплектующие</a>&nbsp;<span>(4)</span></div>
+																					</div>
+									</div>
+																																																																																																															<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/41b/elementy-pitaniya.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/elementy_pitaniya/">Элементы питания</a>&nbsp;<span>(119)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/batareyki_krona_9v_6f22/">Батарейки Крона 9V, 6F22</a>&nbsp;<span>(4)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/batareyki_rasprodazha/">Батарейки распродажа</a>&nbsp;<span>(4)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/bolshie_batareyki_d_lr20_r20_373/">Большие батарейки D, LR20, R20, 373</a>&nbsp;<span>(7)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/diskovye_litievye_batareyki_3_v_cr_lr/">Дисковые литиевые батарейки 3 V CR, LR</a>&nbsp;<span>(36)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/zaryadnye_ustroystva_dlya_batareek/">Зарядные устройства для батареек</a>&nbsp;<span>(6)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/mizinchikovye_batareyki_aaa_lr03_fr03_r03_286/">Мизинчиковые батарейки AAA, LR03,FR03, R03,286</a>&nbsp;<span>(11)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/palchikovye_batareyki_aa_lr6_fr6_zr6_r6_316/">Пальчиковые батарейки AA, LR6, FR6, ZR6, R6, 316</a>&nbsp;<span>(32)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/spetselementy_a27_a23/">Спецэлементы A27, A23</a>&nbsp;<span>(23)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/elementy_pitaniya/srednie_batareyki_c_lr14_r14_343/">Средние батарейки C, LR14, R14, 343</a>&nbsp;<span>(7)</span></div>
+																					</div>
+									</div>
+																																																													<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/094/shiny.png)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/shiny/">Шины</a>&nbsp;<span>(323)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/shiny/avtomobilnye_shiny/">Автомобильные шины</a>&nbsp;<span>(57)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/shiny/gruzovye_shiny/">Грузовые шины</a>&nbsp;<span>(9)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/shiny/kamery_dlya_shin/">Камеры для шин</a>&nbsp;<span>(13)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/shiny/raskhodniki_dlya_kolyes/">Расходники для колёс</a>&nbsp;<span>(138)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/shiny/raskhodniki_dlya_shinomontazha/">Расходники для шиномонтажа</a>&nbsp;<span>(106)</span></div>
+																					</div>
+									</div>
+																																									<div class="drop-b__item">
+					<div class="drop-b__head" >
+						<div style="background-image:url(/upload/uf/1b7/solnechnaya-energetika-ikonka.jpg)" class="drop-b__icon"></div>
+						<div class="drop-b__title"><a href="/catalog/solnechnaya-energetika/">Солнечная энергетика</a>&nbsp;<span>(70)</span></div>
+					</div>
+											<div class="drop-b__list">
+																								<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/solnechnaya-energetika/solnechnye-moduli/">Солнечные модули</a>&nbsp;<span>(12)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/solnechnaya-energetika/kontrollery/">Контроллеры</a>&nbsp;<span>(12)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/solnechnaya-energetika/konnektory/">Коннекторы</a>&nbsp;<span>(7)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/solnechnaya-energetika/kabel-dlya-elektricheskikh-ustanovok/">Кабель для электрических установок</a>&nbsp;<span>(8)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/solnechnaya-energetika/krepyezhnye-elementy-dlya-solnechnykh-batarey/">Крепёжные элементы для солнечных батарей</a>&nbsp;<span>(10)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/solnechnaya-energetika/solnechnye-paneli-dlya-turizma-/">Солнечные панели для туризма	</a>&nbsp;<span>(2)</span></div>
+																																															<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/solnechnaya-energetika/akkumulyatory-dlya-solnechnykh-batarey/">Аккумуляторы для солнечных батарей</a>&nbsp;<span>(14)</span></div>
+																																<div class="drop-b__element"><a class="drop-b__element__link" href="/catalog/solnechnaya-energetika/invertory/">Инверторы</a>&nbsp;<span>(5)</span></div>
+																					</div>
+									</div>
+																																																			</div>
+</div>
+
+				</div>
+			</div>
+
+		</div>
+        
+        		<div class="overlay overlay--header"></div>
+
+
+
+
+<div class="search-container l-search-container">
+
+            
+<form action="/search/index.php" class="wrap">            
+				<div class="search-container__inner">
+                
+					<input name="q" autocomplete="off" id="title-search-input" type="text" class="search-container__input" placeholder="Введите ваш поисковый запрос, например «Аккумуляторы»">
+					<div class="search-container__close js-header-search-close"></div>
+             
+				</div>
+                     
+				<input style="display: block;border: 0;background-color: transparent;" value="" class="search-container__loop" type="submit"/>
+                
+</form>                          
+
+
+            <div class="search-container__box"  id="title-search"></div>
+
+
+<!--			<div class="header__search-box" id="title-search"> 
+				<div class="wrap">
+                <form action="/search/index.php">
+					<input class="search-container__input" id="title-search-input" type="text" name="q" autocomplete="off" placeholder="Введите ваш поисковый запрос, например «Аккумуляторы»">
+                </form>
+					<div class="header__search-icons">
+						<button class="header__search-close" id="search-close"></button>
+						<div class="header__search-loop"></div>
+					</div>
+				</div>
+			</div>-->
+            
+</div>            
+
+    
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="wrap">
+                        <div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList"><span>Главная страница</span><div style="clear:both"></div></div>             <h1 class="title_main">Страница не найдена</h1>
+            
+
+<noindex>
+</noindex>
+<div class="wrap">
+	<div class="fhf">
+		<div class="fhf__text">
+			<div class="fhf__title">
+				404
+			</div>
+			<div class="fhf__subtitle">
+				Кажется, вы потерялись! Воспользуйтесь указателем
+			</div>
+		</div>
+		<div class="fhf__board">
+			<div class="fhf__box" data-km="385">
+				<a href="/catalog/" class="fhf__link">Интернет-магазин</a>
+			</div>
+			<div class="fhf__box" data-km="22">
+				<a href="/service/" class="fhf__link">Сервис</a>
+                <a href="/entry-to-service/" class="fhf__link">Запись в сервис</a>
+			</div>
+			<div class="fhf__box" data-km="76">
+				<a href="/addresses-of-shops/" class="fhf__link">Адреса магазинов</a> 
+				<a href="/review/" class="fhf__link">Статьи и обзоры</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- Yandex.Metrika counter -->  <noscript><div><img src="https://mc.yandex.ru/watch/42436339" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<!-- {/literal} END JIVOSITE CODE -->
+
+
+<!-- END Top100 (Kraken) Counter -->
+<footer class="footer spacing--1x1">
+	<div class="footer__middle">
+		<div class="wrap">
+			<div class="footer__info">
+				<div class="footer__brand">
+					<a href="/" class="footer__logo">
+                        <div style="background-image: url('/bitrix/templates/akb22_index_19102016/img/logo_footer.png'); width: 200px; height: 45px"></div>
+					</a>
+					<div class="footer__brand__text">
+						Интернет-магазин запчастей<br> и аккумуляторов
+					</div>
+				</div>
+				<div class="footer__contacts">
+					<div class="footer__phone">
+						<span>+7 (800) -700-52 90</span>
+						Бесплатный звонок по России
+					</div>
+				</div>
+				<noindex>
+                    <div class="footer__modal">
+                        <button class="footer__button button_transparent button_small open_modal_window" data-action="callback">
+                            Заказать звонок
+                        </button>
+                    </div>
+                </noindex>
+				<noindex>
+                    <div class="footer__modal">
+					<button class="footer__button button_transparent button_small open_modal_window" data-action="feedback">
+						Обратная связь
+					</button>
+                </noindex>
+				</div>
+			</div>
+			<div class="container">
+				<div class="footer__menus">
+					<div class="footer__menu">
+						<div class="footer__menu__title">
+							О компании
+						</div>
+						<nav class="footer__menu__list">
+					                
+
+
+		<a href="/about/" class="footer__menu__link">
+						О нас					</a>
+		
+		<a href="/brands/" class="footer__menu__link">
+						Бренды					</a>
+		
+		<a href="/vendors/" class="footer__menu__link">
+						Поставщикам					</a>
+		
+		<a href="/corporate/" class="footer__menu__link">
+						Корпоративным клиентам					</a>
+		
+		<a href="/news/" class="footer__menu__link">
+						Новости					</a>
+		
+		<a href="/addresses-of-shops/" class="footer__menu__link">
+						Магазины					</a>
+		
+		<a href="/eco/" class="footer__menu__link">
+						Экологическая ответственность					</a>
+		
+		<a href="/vacancies/" class="footer__menu__link">
+						Вакансии					</a>
+		
+		<a href="/consumers/nashi-garantii.php" class="footer__menu__link">
+						Наши гарантии					</a>
+		
+		<a href="https://clearauto22.ru/" class="footer__menu__link">
+						Учебный класс					</a>
+		
+		<a href="/rassrochka-na-tovary/" class="footer__menu__link">
+						Рассрочка на товары					</a>
+		
+		<a href="/payment/" class="footer__menu__link">
+						Оплата					</a>
+		
+		<a href="/pokupay-so-sberbankom-kredit/" class="footer__menu__link">
+						Покупай в кредит					</a>
+		
+
+
+					
+						</nav>
+					</div>
+					<div class="footer__menu">
+						<div class="footer__menu__title">
+							Автосервис
+						</div>
+						<nav class="footer__menu__list">
+						
+
+
+		<a href="/services/" class="footer__menu__link">
+						Услуги автосервиса					</a>
+		
+		<a href="/feedback" class="footer__menu__link">
+						Отзывы					</a>
+		
+		<a href="/battery-charge/" class="footer__menu__link">
+						Зарядка и восстановление АКБ					</a>
+		
+		<a href="/guarantee/" class="footer__menu__link">
+						Гарантийное обслуживание АКБ					</a>
+		
+		<a href="/free/" class="footer__menu__link">
+						Бесплатные услуги					</a>
+		
+		<a href="/nashi-raboty/" class="footer__menu__link">
+						Наши работы					</a>
+		
+
+
+						</nav>
+					</div>
+					<div class="footer__menu">
+						<div class="footer__menu__title">
+							Услуги
+						</div>
+						<nav class="footer__menu__list">
+							
+
+
+		<a href="/catalog/" class="footer__menu__link">
+						Интернет-магазин					</a>
+		
+		<a href="/service/" class="footer__menu__link">
+						Сервис					</a>
+		
+		<a href="/entry-to-service/" class="footer__menu__link">
+						Запись в автосервис					</a>
+		
+		<a href="/bonus/" class="footer__menu__link">
+						Бонусная программа					</a>
+		
+		<a href="/memo/" class="footer__menu__link">
+						Памятка покупателю					</a>
+		
+		<a href="/privacy_policy/" class="footer__menu__link">
+						Политики конфиденциальности					</a>
+		
+
+
+						</nav>
+						<div class="footer__social">
+							<div class="footer__social__sign">
+								<b>makk</b> в соцсетях
+							</div>
+							<div class="footer__social__links">
+								<a href="https://vk.com/makk22" rel="nofollow" class="footer__social__link" target="_blank">
+									<img src="/bitrix/templates/akb22_index_19102016/img/vk.png" alt="">
+								</a>
+								<a href="https://www.ok.ru/makk22" rel="nofollow" class="footer__social__link" target="_blank">
+									<img src="/bitrix/templates/akb22_index_19102016/img/ok.png" alt="">
+								</a>
+								<a href="/apps/android.apk" rel="nofollow" class="footer__social__link" target="_blank">
+                                    <div style="background-image: url('/bitrix/templates/akb22_index_19102016/img/google_play2.png'); margin-top:10px; width: 200px; height: 57px"></div>
+								</a>
+								<a href="https://itunes.apple.com/us/app/makk-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81/id1300068021?l=ru&ls=1&mt=8" rel="nofollow" class="footer__social__link" target="_blank">
+                                    <div style="background-image: url('/bitrix/templates/akb22_index_19102016/img/app_store2.png'); width: 200px; height: 57px"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__payment">
+					<div class="footer__payment-type">
+						Принимаем к оплате	
+					</div>
+                    <div class="payment-types" style="background-image: url('/bitrix/templates/akb22_index_19102016/img/payment-types.jpg'); width: 522px; height: 37px; background-repeat: no-repeat;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom">
+		<div class="wrap">
+			<div class="footer__about">
+	            Авторское право © 2023 makk. Автомагазин сервис - интернет-магазин по продаже аккумуляторов, масел, аксессуаров, фильтров и запчастей для автомобилей. Все права защищены. Копирование материалов сайта запрещено.
+                <noindex>
+                    Подбор аккумуляторов и свечей зажигания на сайте akb22.ru создан в информационных целях и не гарантирует правильный подбор товара. Мы не берём на себя ответственности за какие-либо неточности и неправильно подобранный товар. Информация и ценовые предложения, представленные на данном сайте (www.akb22.ru), не являются офертой.</div>       </noindex>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+<noindex>
+    </noindex>
+
+<noindex>
+    <a href="/personal/basket" class="modal modal_alert" id="cart_alert" style="display: none;">
+		Товар добавлен в&#160;<span>корзину</span>
+    </a>
+</noindex>
+	
+
+<noscript><div><img src="//mc.yandex.ru/watch/42436339?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript><script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script src="/bitrix/js/main/core/core.min.js?1654501131216224"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script>(window.BX||top.BX).message({'pull_server_enabled':'N','pull_config_timestamp':'0','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script>(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'AKB22-MAKK','SERVER_TZ_OFFSET':'25200','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1702235088','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'0201aff1d1542e5531db63d32f7c1444'});</script><script src="/bitrix/js/main/polyfill/customevent/main.polyfill.customevent.min.js?1564372905556"></script>
+<script src="/bitrix/js/ui/dexie/dist/dexie.bitrix.bundle.min.js?165450097960992"></script>
+<script src="/bitrix/js/main/core/core_ls.min.js?14664168877365"></script>
+<script src="/bitrix/js/main/core/core_fx.min.js?15004321449768"></script>
+<script src="/bitrix/js/main/core/core_frame_cache.min.js?165450113111264"></script>
+<script src="/bitrix/js/mcart.testconversionorder/sourcebuster.min.js?14769588228230"></script>
+<script src="/bitrix/js/pull/protobuf/protobuf.min.js?165450026076433"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?165450026014190"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?16545002729240"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?165450092344687"></script>
+<script src="/bitrix/js/socialservices/ss.js?14664168861419"></script>
+
+<script>
+                (function (d, w, c) {(w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter42436339 = new Ya.Metrika({'id':'42436339','webvisor':'true','clickmap':'true','trackLinks':'true','accurateTrackBounce':'true','trackHash':'false','ut':'false'});
+                    } 
+                    catch(e) {}});
+                    var n=d.getElementsByTagName("script")[0],s = d.createElement("script"),f=function () { n.parentNode.insertBefore(s, n); };s.;s.async=true;s.src=(d.location.protocol=="https:"?"https:":"http:")+"//mc.yandex.ru/metrika/watch.js";if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,false);}else{f();}})(document,window,"yandex_metrika_callbacks");
+            </script>
+<script>
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+<script src="/bitrix/templates/akb22_index_19102016/partials/jquery-2.2.3.min.js?163757442585237"></script>
+<script src="/bitrix/templates/akb22_index_19102016/js/banner.min.js?1637574425331"></script>
+<script src="/bitrix/templates/akb22_index_19102016/partials/jquery-migrate-1.3.0.min.js?16375744259337"></script>
+<script src="/bitrix/templates/akb22_index_19102016/partials/slick.min.js?163757442641368"></script>
+<script src="/bitrix/templates/akb22_index_19102016/partials/select2.full.min.js?163757442681033"></script>
+<script src="/bitrix/templates/akb22_index_19102016/partials/nouislider.min.js?163757442618093"></script>
+<script src="/bitrix/templates/akb22_index_19102016/partials/magnific-popup.min.js?163757442519967"></script>
+<script src="/bitrix/templates/akb22_index_19102016/main.min.js?16375744256326"></script>
+<script src="/bitrix/templates/akb22_index_19102016/jquery.inputmask.min.js?163757442571232"></script>
+<script src="/bitrix/templates/akb22_index_19102016/akb22.min.js?163757442517519"></script>
+<script src="/bitrix/templates/akb22_index_19102016/js/datepicker.min.js?150667846935529"></script>
+<script src="/bitrix/templates/akb22_index_19102016/js/fotorama.min.js?163757442538311"></script>
+<script src="/bitrix/templates/akb22_index_19102016/js/new-scripts.min.js?16375744252713"></script>
+<script src="/bitrix/templates/akb22_index_19102016/js/jquery.cookie.min.js?1637574425675"></script>
+<script src="/bitrix/templates/akb22_index_19102016/js/jquery.elevatezoom.min.js?163757442533186"></script>
+<script src="/bitrix/templates/akb22_index_19102016/js/third-party.min.js?1637574425770"></script>
+<script src="/bitrix/components/sotbit/regions.choose/templates/mobile/script.js?16237308257212"></script>
+<script src="/bitrix/templates/akb22_index_19102016/components/sotbit/regions.choose/.default/script.min.js?16375744264381"></script>
+<script src="/bitrix/templates/akb22_index_19102016/components/sotbit/regions.choose/.default/js/horsey.min.js?163757443029608"></script>
+<script src="/bitrix/components/arturgolubev/search.title/script.min.js?16615035826313"></script>
+<script>var _ba = _ba || []; _ba.push(["aid", "035d66ae280f028bd0cb91bfa3ab1e99"]); _ba.push(["host", "www.akb22.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+<script>new Image().src='https://akb22.ru/bitrix/spread.php?s=QUtCMjItTUFLS19TQUxFX1VJRAFmMjI4YzliZGIwOWRhYzJiN2JjNTgzOGFiMzI3M2FhZgExNzMzMzM5MDg3AS8BAQEC&k=5844831f61ea975c9a85f62afdf79a90';
+</script>
+
+
+
+
+
+<script>
+        var SotbitRegion = new SotbitRegionsMobile({
+            'list':[{'ID':'1','NAME':'Барнаул','URL':'https://www.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://www.akb22.ru','DOMAIN':'akb22.ru','CURRENT':'Y'},{'ID':'20','NAME':'Томск','URL':'https://tomsk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://tomsk.akb22.ru','DOMAIN':'tomsk.akb22.ru'},{'ID':'5','NAME':'Новосибирск','URL':'https://novosib.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://novosib.akb22.ru','DOMAIN':'novosib.akb22.ru'},{'ID':'14','NAME':'Рубцовск','URL':'https://rubtsovsk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://rubtsovsk.akb22.ru','DOMAIN':'rubtsovsk.akb22.ru'},{'ID':'15','NAME':'Новокузнецк','URL':'https://novokuznetsk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://novokuznetsk.akb22.ru','DOMAIN':'novokuznetsk.akb22.ru'},{'ID':'16','NAME':'Новоалтайск','URL':'https://novoaltaysk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://novoaltaysk.akb22.ru','DOMAIN':'novoaltaysk.akb22.ru'},{'ID':'19','NAME':'Камень-на-Оби','URL':'https://kamen-na-obi.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://kamen-na-obi.akb22.ru','DOMAIN':'kamen-na-obi.akb22.ru'},{'ID':'18','NAME':'Заринск','URL':'https://zarinsk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://zarinsk.akb22.ru','DOMAIN':'zarinsk.akb22.ru'}],
+            'rootDomain': 'www.akb22.ru',
+            'templateFolder': '/bitrix/components/sotbit/regions.choose/templates/mobile',
+            'componentFolder': '/bitrix/components/sotbit/regions.choose',
+            'singleDomain': 'N',
+            'arParams': '{"CACHE_TYPE":"A","CACHE_TIME":36000000,"~CACHE_TYPE":"A","~CACHE_TIME":36000000,"FROM_LOCATION":"N"}'
+        });
+    </script>
+<script>
+        var SotbitRegion = new SotbitRegions({
+            'list':[{'ID':'1','NAME':'Барнаул','URL':'https://www.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://www.akb22.ru','DOMAIN':'akb22.ru','CURRENT':'Y'},{'ID':'20','NAME':'Томск','URL':'https://tomsk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://tomsk.akb22.ru','DOMAIN':'tomsk.akb22.ru'},{'ID':'5','NAME':'Новосибирск','URL':'https://novosib.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://novosib.akb22.ru','DOMAIN':'novosib.akb22.ru'},{'ID':'14','NAME':'Рубцовск','URL':'https://rubtsovsk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://rubtsovsk.akb22.ru','DOMAIN':'rubtsovsk.akb22.ru'},{'ID':'15','NAME':'Новокузнецк','URL':'https://novokuznetsk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://novokuznetsk.akb22.ru','DOMAIN':'novokuznetsk.akb22.ru'},{'ID':'16','NAME':'Новоалтайск','URL':'https://novoaltaysk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://novoaltaysk.akb22.ru','DOMAIN':'novoaltaysk.akb22.ru'},{'ID':'19','NAME':'Камень-на-Оби','URL':'https://kamen-na-obi.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://kamen-na-obi.akb22.ru','DOMAIN':'kamen-na-obi.akb22.ru'},{'ID':'18','NAME':'Заринск','URL':'https://zarinsk.akb22.ru/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg','CODE':'https://zarinsk.akb22.ru','DOMAIN':'zarinsk.akb22.ru'}],
+            'rootDomain': 'akb22.ru',
+            'templateFolder': '/bitrix/templates/akb22_index_19102016/components/sotbit/regions.choose/.default',
+            'componentFolder': '/bitrix/components/sotbit/regions.choose',
+            'singleDomain': 'N',
+            'arParams': '{"CACHE_TYPE":"A","CACHE_TIME":36000000,"~CACHE_TYPE":"A","~CACHE_TIME":36000000,"FROM_LOCATION":"N"}'
+        });
+    </script>
+<script>
+	BX.ready(function(){
+		new JCTitleSearch({
+			'AJAX_PAGE' : '/upload/resize_cache/iblock/f58/fnyvk16a0cd30msurc0apwzjhta7424i/533_533_0/pylnik_shrusa_universalnyy_k_kt_pdc0001_patron.jpeg',
+			'CONTAINER_ID': 'title-search',
+			'INPUT_ID': 'title-search-input',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>
+
+
+<script>
+	// Идет разработка для мобильников
+	function iOS() {
+
+	  var iDevices = [
+		'iPad Simulator',
+		'iPhone Simulator',
+		'iPod Simulator',
+		'iPad',
+		'iPhone',
+		'iPod'
+	  ];
+
+	  if (!!navigator.platform) {
+		while (iDevices.length) {
+		  if (navigator.platform === iDevices.pop()){ return true; }
+		}
+	  }
+
+	  return false;
+	}
+	$(document).ready(function($){
+		var windowWidth = $(window).width();
+		console.log(windowWidth);
+		if(iOS()){
+			console.log('IOS');
+			$('body').addClass('ios');
+		}else{
+			console.log('Not IOS');
+		}
+		$('.nav.l-nav .droplist__item a').each(function() {
+			//console.log(jQuery(this).text());
+			if(jQuery(this).attr('href') == '/autofamily/'){
+				jQuery(this).parent().addClass('vaphide');
+			}
+		});
+		if(windowWidth < 1125){	
+			//$('.main .wrap')
+						var pushID = $.cookie('pushID');
+			console.log('pushID - '+pushID);
+			var pushData = {};
+			if(!pushID){
+				var newPID = $.now();
+				$.cookie('pushID', newPID, {
+					expires: 365,
+					path: '/',
+				});
+				pushID = newPID;
+				console.log('push id не в базе');
+			}else{
+				console.log('push id в базе');
+			}
+			pushData['id'] = pushID;
+			pushData['ip'] = '31.134.188.32' ;
+			jQuery.ajax({
+				type: "POST",
+				dataType: 'json',
+				url: "/bitrix/templates/akb22_index_19102016/push.php",
+				data: pushData,
+				success: function(data){
+					console.log('Пришло');
+					console.log(data);
+					if(data['result']['count'] == 1){
+						console.log('Есть новые пуши');
+						jQuery('.mobileheader').addClass('newpush');
+					}else{
+						console.log('Нет новых пушей');
+					}
+				}
+			});
+						$('.main .wrap').each(function() {
+				//var str = jQuery(this).find('.title_block').text());
+				if(jQuery(this).find('.title_block').text()){
+					jQuery(this).addClass('nomobile');
+				}
+			});
+			$("body").on("click", "#menuopen_hide", function(event){
+				if($('#vapmobilemenu').hasClass('.active')){
+					var flag = true;
+				}
+				$(".vapshowhide").removeClass('active');
+				if(!flag){
+					$('#vapmobilemenu').addClass('active');
+					$("#vapoverlay").addClass('active');
+					$("body").addClass('filteron');
+				}else{
+					$("#vapoverlay").removeClass('active');
+					$("body").removeClass('filteron');
+				}
+			});
+			$("#vapmobilemenu").on("click", "button", function(event){
+				$(".vapshowhide").removeClass('active');
+				$("#vapoverlay").removeClass('active');
+				//$("body").addClass('filteron');
+			});
+			$("body").on("click", "#vapoverlay", function(event){
+				$(".vapshowhide").removeClass('active');
+				$("#vapoverlay").removeClass('active');
+				$("body").removeClass('filteron');
+			});
+			$('.goods__slider.slick-initialized .slick-slide').attr('style','width:'+(windowWidth - 24)/2+'px;');
+			//$('.content__slider.slick-initialized .slick-slide').attr('style','width:'+(windowWidth - 20)/2+'px !important;');
+			$('.content__slider.slick-initialized .slick-slide').attr('style','width:'+(windowWidth - 24)/2+'px !important;');
+			
+			
+			//Здесь только для корзины слайдер товаров
+			
+            $('.header__cart.cart-preview').clone().insertBefore('.mobile_basket');
+            //$('.header__cart.cart-preview').clone().insertAfter('.mobileheader .header__logo');
+			//$("body").on("click", ".good__cart-button", function(event){
+				//alert($('.header__cart.cart-preview .cart-preview__image').data('ammount'));
+				//$('.mobileheader .header__cart.cart-preview .cart-preview__image').data('ammount',$('.header__cart.cart-preview .cart-preview__image').data('ammount'));
+				//.clone().insertAfter('.mobileheader .header__logo');
+			//});
+			$('.search-container.l-search-container').clone().appendTo('#underslider');
+			$('.search-container.l-search-container .search-container__input').attr('placeholder','Введите поисковый запрос...');
+			//Скрипты главной, кнопки под слайдером
+						
+						
+			//Скрипты для страницы корзины
+						//Скрипты для страницы товара, меню, отзывы и вопросы
+						// Список товаров и одиночный товар
+												
+						//Для страницы заказов в личном кабинете
+						// Для контактов
+														}
+	});
+	//<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	//<meta name="viewport" content="width=1200px">
+
+</script>
+<script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter42436339 = new Ya.Metrika({ id:42436339, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, ecommerce:"dataLayer" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script><script>function addLink() {
+        var body_element = document.getElementsByTagName('body')[0];
+        var selection = window.getSelection();
+	selection = window.getSelection();
+        var pagelink = "<br /><br />Original: <a href='"+document.location.href+"'>"+document.location.href+"</a>";
+        var copytext = selection + pagelink;
+        var newdiv = document.createElement('div');
+        body_element.appendChild(newdiv);
+        newdiv.innerHTML = copytext;
+        selection.selectAllChildren(newdiv);
+        window.setTimeout( function() {
+                body_element.removeChild(newdiv);
+        }, 0);
+}
+document.oncopy = addLink;</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93983894-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+        $(document).one('uiThirdPartyLoad', function() {
+            (function(){ var widget_id = 'kUUqSvT1Ga';var d=document;var w=window;function l(){
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+                s.src = '//code.jivosite.com/script/widget/'+widget_id
+                ; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}
+                if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}
+                else{w.addEventListener('load',l,false);}}})();
+        });
+    </script>
+</body>
+</html>

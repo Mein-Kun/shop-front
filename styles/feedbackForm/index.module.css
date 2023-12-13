@@ -1,0 +1,123 @@
+.feedback_form {
+  padding: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+@media (max-width: 560px) {
+  .feedback_form {
+    padding: 24px 8px;
+  }
+}
+.feedback_form.dark_mode {
+  background-color: #2d2d2d;
+}
+.feedback_form__title {
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #E1E1E1;
+  color: #2D2D2D;
+}
+@media (max-width: 900px) {
+  .feedback_form__title {
+    font-size: 18px;
+  }
+}
+.feedback_form__title.dark_mode {
+  color: #f2f2f2;
+}
+.feedback_form__form {
+  display: flex;
+  flex-direction: column;
+}
+.feedback_form__form__label {
+  margin-bottom: 24px;
+  position: relative;
+}
+.feedback_form__form__label span {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #4E4C4C;
+}
+.feedback_form__form__label.dark_mode span {
+  color: #999292;
+}
+.feedback_form__form__label.dark_mode input {
+  caret-color: #f2f2f2;
+  color: #f2f2f2;
+}
+.feedback_form__form__input {
+  background-color: transparent;
+  border: 1px solid #D5D5D5;
+  border-radius: 4px;
+  padding-left: 12px;
+  height: 40px;
+  width: 100%;
+}
+.feedback_form__form__input::-moz-placeholder {
+  font-size: 14px;
+  color: #9E9E9E;
+}
+.feedback_form__form__input::placeholder {
+  font-size: 14px;
+  color: #9E9E9E;
+}
+.feedback_form__form__textarea {
+  width: 100%;
+  padding: 9px 12px;
+  height: 176px;
+  background-color: transparent;
+  border: 1px solid #D5D5D5;
+  border-radius: 4px;
+  resize: vertical;
+}
+.feedback_form__form__textarea::-moz-placeholder {
+  font-size: 16px;
+  color: #9E9E9E;
+}
+.feedback_form__form__textarea::placeholder {
+  font-size: 16px;
+  color: #9E9E9E;
+}
+.feedback_form__form__textarea.dark_mode {
+  caret-color: #f2f2f2;
+  color: #f2f2f2;
+}
+.feedback_form__form__btn {
+  text-align: end;
+  padding-top: 24px;
+  border-top: 1px solid #E1E1E1;
+}
+@media (max-width: 1170px) {
+  .feedback_form__form__btn {
+    text-align: initial;
+  }
+}
+.feedback_form__form__btn button {
+  height: 40px;
+  width: 255px;
+  position: relative;
+  padding: 8px 32px;
+  background-color: #ec0000;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #FAFBFC;
+}
+@media (max-width: 1170px) {
+  .feedback_form__form__btn button {
+    width: 100%;
+  }
+}
+
+.error_alert {
+  font-size: 12px;
+  color: red !important;
+  position: absolute;
+  left: 10px;
+  bottom: -23px;
+}/*# sourceMappingURL=index.module.css.map */

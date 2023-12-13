@@ -34,6 +34,7 @@ const SignInForm = () => {
 
       resetField('name')
       resetField('password')
+
       route.push('/dashboard')
     } catch (error) {
       showAuthError(error)

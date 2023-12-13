@@ -1,0 +1,130 @@
+.policy {
+  padding-bottom: 80px;
+}
+@media (max-width: 800px) {
+  .policy {
+    padding-bottom: 32px;
+  }
+}
+.policy__title {
+  margin: 0;
+  margin-bottom: 48px;
+  font-weight: 500;
+  font-size: 30px;
+  color: #2D2D2D;
+}
+@media (max-width: 800px) {
+  .policy__title {
+    font-size: 17px;
+    margin-bottom: 14px;
+  }
+}
+.policy__title.dark_mode {
+  color: #f2f2f2;
+}
+.policy__inner {
+  padding-top: 143px;
+  position: relative;
+}
+@media (max-width: 800px) {
+  .policy__inner {
+    padding-top: 0;
+  }
+}
+.policy__info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 186px;
+  padding: 48px;
+  background-color: #FFFFFF;
+  box-shadow: -1px 4px 30px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+}
+@media (max-width: 800px) {
+  .policy__info {
+    position: initial;
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+@media (max-width: 1100px) {
+  .policy__info {
+    padding: 24px;
+  }
+}
+@media (max-width: 800px) {
+  .policy__info {
+    padding: 0;
+  }
+}
+.policy__info.dark_mode {
+  background-color: #2d2d2d;
+}
+@media (max-width: 800px) {
+  .policy__info.dark_mode {
+    background-color: transparent;
+  }
+}
+.policy__info p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 27px;
+  color: #4E4C4C;
+}
+@media (max-width: 800px) {
+  .policy__info p {
+    font-size: 10px;
+  }
+  .policy__info p:last-child {
+    margin-bottom: 32px;
+  }
+}
+.policy__info p:first-child {
+  margin-bottom: 24px;
+}
+.policy__info.dark_mode p {
+  color: #f2f2f2;
+}
+/* .policy__img {
+  width: calc(100% - 91px);
+  height: 560px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+@media (max-width: 1100px) {
+  .policy__img {
+    height: 400px;
+  }
+}
+@media (max-width: 800px) {
+  .policy__img {
+    height: 305px;
+    width: 100%;
+  }
+}
+.policy__img__top {
+  margin-right: 0;
+  margin-left: auto;
+  margin-bottom: 80px;
+}
+@media (max-width: 800px) {
+  .policy__img__top {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 540px) {
+  .policy__img__top {
+    height: 237px;
+  }
+}
+.policy__img img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 800px) {
+  .policy__img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  } */
+/*# sourceMappingURL=index.module.css.map */
