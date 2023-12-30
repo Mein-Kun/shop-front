@@ -18,7 +18,7 @@ function Catalog({ query }: { query: IQueryParams }) {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="" />
+        <meta name="keywors" content="" />
         <link rel="icon" type="image/svg" sizes="32x32" href="/img/logo.jpg" />
       </Head>
       {shouldLoadContent && (

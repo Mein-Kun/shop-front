@@ -51,7 +51,6 @@ const PartPage = () => {
   const loadAvtoPart = async () => {
     try {
       const data = await getAvtoPartsFx('/avto-parts?limit=20&offset=0')
-      console.log(data)
       setAvtoParts(data)
       setAvtoPartsByPopularity()
     } catch (error) {

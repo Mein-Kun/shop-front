@@ -45,7 +45,6 @@ const AdminOrder = ({ showDoneIcon }: IOrderAccordionProps) => {
   const loadCartItems = async () => {
     try {
       const cartItems = await getCartForAdminItemsFx(`/shopping-cart/order-all`)
-      console.log(cartItems)
 
       setShoppingCart(cartItems)
     } catch (error) {
