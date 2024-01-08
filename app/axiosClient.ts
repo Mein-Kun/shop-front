@@ -1,18 +1,20 @@
 import axios from 'axios'
 
 const instanse = axios.create({
-  url: 'https://landmotors-client.onrender.com',
-  // url: 'http://localhost:3001',
+  // url: 'https://landmotors-client.onrender.com',
+  url: 'http://localhost:3001',
   withCredentials: true,
-  baseURL: 'https://landmotors-server.onrender.com',
-  // baseURL: 'http://localhost:3000',
+  // baseURL: 'https://landmotors-server.onrender.com',
+  baseURL: 'http://localhost:3000',
   headers: {
     'X-Requested-With': 'XMLHttpRequest',
   },
 })
 
 instanse.interceptors.request.use((config) => {
-  config.headers.Authorization = `Bearer ${localStorage.getItem('token')}`
+  config.headers.Authorization = `Bearer ${localStorage.getItem(
+    'access_token'
+  )}`
   return config
 })
 

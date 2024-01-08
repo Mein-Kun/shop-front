@@ -1,6 +1,6 @@
 import { createEffect } from 'effector-next'
 import { toast } from 'react-toastify'
-import { ISignUpFx, ISignInFx } from '../../types/auth'
+import { ISignUpFx, ISignInFx, IAuthFx } from '../../types/auth'
 import api from '../axiosClient'
 import { AxiosError } from 'axios'
 import { HTTPStatus } from '@/constans'
@@ -28,6 +28,8 @@ export const singInFx = createEffect(
       toast.warning(data.warningMessage)
       return
     }
+    console.log(data)
+    localStorage.setItem('access_token', data.access_token)
 
     toast.success('Вход выполнен!')
 
@@ -35,23 +37,25 @@ export const singInFx = createEffect(
   }
 )
 
-export const checkUserAuthFx = createEffect(async (url: string) => {
-  try {
-    const { data } = await api.get(url)
+export const checkUserAuthFx = createEffect(
+  async ({ url, accessToken }: IAuthFx) => {
+    try {
+      const { data } = await api.post(url, { accessToken })
 
-    return data
-  } catch (error) {
-    const axiosError = error as AxiosError
+      return data
+    } catch (error) {
+      const axiosError = error as AxiosError
 
-    if (axiosError.response) {
-      if (axiosError.response.status === HTTPStatus.FORBIDDEN) {
-        return false
+      if (axiosError.response) {
+        if (axiosError.response.status === HTTPStatus.FORBIDDEN) {
+          return false
+        }
       }
-    }
 
-    toast.error((error as Error).message)
+      toast.error((error as Error).message)
+    }
   }
-})
+)
 
 export const logoutFx = createEffect(async (url: string) => {
   try {

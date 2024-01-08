@@ -17,7 +17,10 @@ const useRedirectByUserCheck = (isAuthPage = false) => {
   }, [])
 
   const checkUser = async () => {
-    const user = await checkUserAuthFx('/users/login-check')
+    const user = await checkUserAuthFx({
+      url: '/users/login-check',
+      accessToken: localStorage.getItem('accessToken'),
+    })
 
     if (isAuthPage) {
       if (!user) {

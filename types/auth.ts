@@ -24,6 +24,11 @@ export interface ISignInFx {
   password: string
 }
 
+export interface IAuthFx {
+  url: string
+  accessToken: string | null
+}
+
 export interface IUser {
   username: string
   userId: number
