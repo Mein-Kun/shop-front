@@ -17,14 +17,13 @@ import {
 } from '@/context/shopping-cart'
 import CartPopupItem from './CartPopupItem'
 import { getCartItemsFx } from '@/app/api/shopping-cart'
-import { $user } from '@/context/user'
 import styles from '@/styles/cartPopup/index.module.scss'
 import { formatPrice } from '@/utils/common'
 
 const CartPopup = forwardRef<HTMLDivElement, IWrappedComponentProps>(
   ({ open, setOpen }, ref) => {
     const mode = useStore($mode)
-    const user = useStore($user)
+    const user = JSON.parse(localStorage.getItem('user') || '{}')
     const totalPrice = useStore($totalPrice)
     const disableCart = useStore($disableCart)
     const shoppingCart = useStore($shoppingCart)

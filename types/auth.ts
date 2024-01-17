@@ -30,7 +30,7 @@ export interface IAuthFx {
 }
 
 export interface IUser {
-  username: string
   userId: number
+  username: string
   email: string
 }

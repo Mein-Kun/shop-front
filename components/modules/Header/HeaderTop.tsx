@@ -7,7 +7,7 @@ import ModeToggler from '@/components/elements/ModeToggler/ModeToggler'
 import { $mode } from '@/context/mode'
 import { usePopup } from '@/hooks/usePoup'
 import styles from '@/styles/header/index.module.scss'
-import { $user } from '@/context/user'
+// import { $user } from '@/context/user'
 // import LogoImgWhite from '@/components/elements/Header/logoImgWhite'
 // import LogoImgBlack from '@/components/elements/Header/logoImgBlack'
 
@@ -15,7 +15,8 @@ const HeaderTop = () => {
   const isMedia950 = useMediaQuery(950)
   const { toggleOpen, open, closePopup } = usePopup()
   const mode = useStore($mode)
-  const user = useStore($user)
+  // const user = useStore($user)
+  const user = JSON.parse(localStorage.getItem('user') || '{}')
   const darkModeClass = mode === 'dark' ? `${styles.dark_mode}` : ''
 
   return (

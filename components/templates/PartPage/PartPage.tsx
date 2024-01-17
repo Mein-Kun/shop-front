@@ -13,7 +13,6 @@ import CartHoverCheckedSvg from '@/components/elements/CartHoverCheckedSvg/CartH
 import CartHoverSvg from '@/components/elements/CartHoverSvg/CartHoverSvg'
 import spinnerStyles from '@/styles/spinner/index.module.scss'
 import { addToFavoriteItem, toggleCartItem } from '@/utils/shopping-cart'
-import { $user } from '@/context/user'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
 import PartTabs from '@/components/modules/PartPage/PartTabs'
 import DashboardSlider from '@/components/modules/DashboardPage/DashboardSlider'
@@ -32,7 +31,7 @@ import { $favorites } from '@/context/favorites'
 
 const PartPage = () => {
   const mode = useStore($mode)
-  const user = useStore($user)
+  const user = JSON.parse(localStorage.getItem('user') || '{}')
   const isMobile = useMediaQuery(850)
   const favorites = useStore($favorites)
   const avtoPart = useStore($avtoPart)

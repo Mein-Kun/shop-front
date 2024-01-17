@@ -34,7 +34,7 @@ const PriceRange = ({
         <input
           type="text"
           value={Math.ceil(priceRange[1])}
-          placeholder="до 10 000"
+          placeholder="до 100 000"
           readOnly
         />
       </div>

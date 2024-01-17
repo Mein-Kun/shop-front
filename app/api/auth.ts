@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-types */
 import { createEffect } from 'effector-next'
 import { toast } from 'react-toastify'
 import { ISignUpFx, ISignInFx, IAuthFx } from '../../types/auth'
@@ -28,9 +29,9 @@ export const singInFx = createEffect(
       toast.warning(data.warningMessage)
       return
     }
-    console.log(data)
+    // console.log(data)
     localStorage.setItem('access_token', data.access_token)
-
+    localStorage.setItem('user', JSON.stringify(data.user))
     toast.success('Вход выполнен!')
 
     return data

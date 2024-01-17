@@ -13,7 +13,6 @@ import { formatPrice } from '@/utils/common'
 import OrderAccordion from '@/components/modules/OrderPage/OrderAccordion'
 import { $mode } from '@/context/mode'
 import { checkPaymentFx, makePaymentFx } from '@/app/api/payment'
-import { $user } from '@/context/user'
 import styles from '@/styles/order/index.module.scss'
 import spinnerStyles from '@/styles/spinner/index.module.scss'
 import Link from 'next/link'
@@ -21,7 +20,7 @@ import { updateCardForAdmin } from '@/utils/shopping-cart'
 
 const OrderPage = () => {
   const mode = useStore($mode)
-  const user = useStore($user)
+  const user = JSON.parse(localStorage.getItem('user') || '{}')
   // const userCity = useStore($userCity)
   const shoppingCart = useStore($shoppingCart)
   const totalPrice = useStore($totalPrice)

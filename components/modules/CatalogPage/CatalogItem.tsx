@@ -9,7 +9,7 @@ import CartHoverCheckedSvg from '@/components/elements/CartHoverCheckedSvg/CartH
 import CartHoverSvg from '@/components/elements/CartHoverSvg/CartHoverSvg'
 import spinnerStyles from '@/styles/spinner/index.module.scss'
 import { toggleCartItem } from '@/utils/shopping-cart'
-import { $user } from '@/context/user'
+// import { $user } from '@/context/user'
 import { removeFromCartFx } from '@/app/api/shopping-cart'
 import styles from '@/styles/catalog/index.module.scss'
 // import { $favorite } from '@/context/favorite'
@@ -18,7 +18,8 @@ import styles from '@/styles/catalog/index.module.scss'
 
 const CatalogItem = ({ item }: { item: IAvtoPart }) => {
   const mode = useStore($mode)
-  const user = useStore($user)
+  // const user = useStore($user)
+  const user = JSON.parse(localStorage.getItem('user') || '{}')
   const shoppingCart = useStore($shoppingCart)
   // const favorite = useStore($favorite)
   const isInCart = shoppingCart.some((cartItem) => cartItem.partId === item.id)

@@ -80,7 +80,7 @@ const SearchInput = () => {
       })
 
       const names = data
-        .map((item: IAvtoPart) => item.name)
+        .map((item: IAvtoPart) => item.parts_name)
         .map(createSelectOption)
 
       setOptions(names)
@@ -91,7 +91,7 @@ const SearchInput = () => {
 
   const getPartAndRedirect = async (name: string) => {
     const part = await getPartByNameFx({
-      url: '/avto-parts/name',
+      url: `/avto-parts/${name}`,
       name,
     })
 
