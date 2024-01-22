@@ -34,7 +34,7 @@ const CatalogItem = ({ item }: { item: IAvtoPart }) => {
   //   addToFavoriteItem(user.userId, item.id, isInFavorite)
   return (
     <li className={`${styles.catalog__list__item} ${darkModeClass}`}>
-      <img src={item.images} alt={item.parts_name} />
+      <img src={'/img/product_img/BM99001MAL.png'} alt={item.parts_name} />
       <div className={styles.catalog__list__item__inner}>
         <Link href={`/catalog/${item.id}`} passHref legacyBehavior>
           <h3 className={styles.catalog__list__item__title}>

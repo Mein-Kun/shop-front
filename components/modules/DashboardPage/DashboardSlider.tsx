@@ -71,7 +71,7 @@ const DashboardSlider = ({
             key={item.id}
             style={width}
           >
-            <img src={item.images} alt={item.name} />
+            <img src={'/img/product_img/BM99001MAL.png'} alt={item.name} />
             <div className={styles.dashboard__slide__inner}>
               <Link
                 href={goToPartPage ? `/catalog/${item.id}` : '/catalog'}

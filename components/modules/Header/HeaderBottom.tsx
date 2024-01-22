@@ -40,7 +40,7 @@ const HeaderBottom = () => {
                   <span
                     className={`${styles.header__logo__link__text} ${darkModeClass}`}
                   >
-                    Поставщик автозапчастей
+                    Интернет-магазин автозапчастей
                   </span>
                 )}
               </a>

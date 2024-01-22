@@ -263,6 +263,119 @@
     }
   }
 
+  &__chat {
+    line-height: 1.5;
+    font-family: "DIN Cyr";
+    color: #333;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    z-index: 10150;
+    visibility: visible;
+    animation: b24-widget-button-visible 1s ease-out forwards 1;
+    flex-direction: column-reverse;
+
+    &__inner {
+      font-size: 14px;
+      line-height: 1.5;
+      font-family: "DIN Cyr";
+      color: #333;
+      visibility: visible;
+      box-sizing: border-box;
+      position: relative;
+      display: inline-block;
+      transform: scale(.85);
+      transition: transform .3s;
+
+      &__batton {
+        font-size: 14px;
+        line-height: 1.5;
+        font-family: "DIN Cyr";
+        color: #333;
+        visibility: visible;
+        width: 66px;
+        height: 66px;
+        border-radius: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        cursor: pointer;
+
+        &__pulse {
+          @keyframes widgetPulse {
+            50% {
+              transform: scale(1,1);
+              opacity: 1;
+            }
+        
+            100% {
+              transform: scale(2,2);
+              opacity: 0;
+            }
+          }
+
+          font-size: 14px;
+          line-height: 1.5;
+          font-family: "DIN Cyr";
+          color: #333;
+          visibility: visible;
+          cursor: pointer;
+          box-sizing: border-box;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          border: 1px solid #ec0000;
+          border-radius: 50%;
+          translate: transform();
+          animation: widgetPulse infinite 2s;
+          transform: scale(1,1);
+          border-color: #ec0000;
+        }
+
+        &__block {
+          font-size: 14px;
+          line-height: 1.5;
+          font-family: "DIN Cyr";
+          color: #333;
+          visibility: visible;
+          cursor: pointer;
+          position: relative;
+          display: flex;
+          height: 66px;
+          border-radius: 100px;
+          box-sizing: border-box;
+          background: #ec0000;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+
+      &__mask {
+        font-size: 14px;
+        line-height: 1.5;
+        font-family: "DIN Cyr";
+        color: #333;
+        visibility: visible;
+        box-sizing: border-box;
+        position: absolute;
+        top: -8px;
+        left: -8px;
+        height: 82px;
+        min-width: 66px;
+        width: calc(100% + 16px);
+        border-radius: 100px;
+        opacity: .2;
+        background: #ec0000;
+      }
+    }
+  }
+
   &__slider {
     margin-bottom: 80px;
 

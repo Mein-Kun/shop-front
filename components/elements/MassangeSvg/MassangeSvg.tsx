@@ -1,0 +1,13 @@
+/* eslint-disable max-len */
+
+const MassangeSvg = () => (
+  <svg width="28" height="29" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M25.99 7.744a2 2 0 012 2v11.49a2 2 0 01-2 2h-1.044v5.162l-4.752-5.163h-7.503a2 2 0 01-2-2v-1.872h10.073a3 3 0 003-3V7.744zM19.381 0a2 2 0 012 2v12.78a2 2 0 01-2 2h-8.69l-5.94 6.453V16.78H2a2 2 0 01-2-2V2a2 2 0 012-2h17.382z"
+      fill="#FFFFFF"
+      fill-rule="evenodd"
+    />
+  </svg>
+)
+
+export default MassangeSvg

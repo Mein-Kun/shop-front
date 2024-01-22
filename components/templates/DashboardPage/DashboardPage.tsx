@@ -7,6 +7,7 @@ import styles from '@/styles/dashboard/index.module.scss'
 import { useStore } from 'effector-react'
 import { $mode } from '@/context/mode'
 import DashboardSlider from '@/components/modules/DashboardPage/DashboardSlider'
+import MassangeSvg from '@/components/elements/MassangeSvg/MassangeSvg'
 // import { $shoppingCart } from '@/context/shopping-cart'
 // import { AnimatePresence, motion } from 'framer-motion'
 // import CartAlert from '@/components/modules/DashboardPage/CartAlert'
@@ -90,6 +91,19 @@ const DashboardPage = () => {
             Новинки
           </h3>
           <DashboardSlider items={newParts.rows || []} spinner={spinner} />
+        </div>
+        <div className={styles.dashboard__chat}>
+          <div className={styles.dashboard__chat__massandge} />
+          <div className={styles.dashboard__chat__social} />
+          <div className={styles.dashboard__chat__inner}>
+            <div className={styles.dashboard__chat__inner__mask} />
+            <div className={styles.dashboard__chat__inner__batton}>
+              <div className={styles.dashboard__chat__inner__batton__pulse} />
+              <div className={styles.dashboard__chat__inner__batton__block}>
+                <MassangeSvg />
+              </div>
+            </div>
+          </div>
         </div>
         <div className={styles.dashboard__about}>
           <h3
