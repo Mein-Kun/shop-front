@@ -9,6 +9,7 @@ import PhoneSvg from '@/components/elements/PhoneSvg/PhoneSvg'
 import MailSvg from '@/components/elements/MailSvg/MailSvg'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
 import Accordion from '@/components/elements/Accordion/Accordion'
+import Chat from './Chat'
 
 const Footer = () => {
   const isMedia750 = useMediaQuery(750)
@@ -148,7 +149,7 @@ const Footer = () => {
                 </li>
                 <li className={styles.footer__bottom__block__social__item}>
                   <a
-                    href="#"
+                    href="https://vk.com/landmotors59"
                     className={styles.footer__bottom__block__social__item_vk}
                   />
                 </li>
@@ -170,11 +171,12 @@ const Footer = () => {
           {isMedia750 && <FooterLogo />}
           <div className={styles.footer__bottom__block}>
             <p className={styles.footer__bottom__block__copyright}>
-              © 2024 «Land Motors».
+              © 2024 «Land Motors». Все права защищены.
             </p>
           </div>
         </div>
       </div>
+      <Chat />
     </footer>
   )
 }

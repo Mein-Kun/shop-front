@@ -1,0 +1,17 @@
+/* eslint-disable max-len */
+const CloseMassangeSvg = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="29"
+    height="29"
+    viewBox="0 0 29 29"
+  >
+    <path
+      fill="#FFF"
+      fillRule="evenodd"
+      d="M18.866 14.45l9.58-9.582L24.03.448l-9.587 9.58L4.873.447.455 4.866l9.575 9.587-9.583 9.57 4.418 4.42 9.58-9.577 9.58 9.58 4.42-4.42"
+    />
+  </svg>
+)
+
+export default CloseMassangeSvg

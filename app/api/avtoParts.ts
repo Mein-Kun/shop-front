@@ -16,7 +16,7 @@ export const getAvtoPartsFx = createEffect(async (url: string) => {
 
 export const getAvtoPartFx = createEffect(async (url: string) => {
   const { data } = await api.get(url)
-
+  console.log(data)
   return data
 })
 

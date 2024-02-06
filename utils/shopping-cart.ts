@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { toast } from 'react-toastify'
 import {
   addToCartFx,
@@ -13,6 +14,9 @@ import {
 } from '@/context/shopping-cart'
 import { addToFavoriteFx, removeFavoriteFx } from '@/app/api/favorite'
 import { removeFavorite, updateFavorite } from '@/context/favorites'
+// import useRedirectByUserCheck from '@/hooks/useRedirectByUserCheck'
+
+// const { shouldLoadContent } = useRedirectByUserCheck()
 
 export const toggleCartItem = async (
   username: string,

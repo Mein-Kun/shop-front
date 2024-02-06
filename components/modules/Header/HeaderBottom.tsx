@@ -32,7 +32,7 @@ const HeaderBottom = () => {
     <div className={styles.header__bottom}>
       <div className={`container ${styles.header__bottom__container}`}>
         <h1 className={styles.header__logo}>
-          <Link href="/dashboard" legacyBehavior passHref>
+          <Link href="/" legacyBehavior passHref>
             {!isMedia950 ? (
               <a className={styles.header__logo__link}>
                 {darkModeClass ? <LogoImgWhite /> : <LogoImgBlack />}

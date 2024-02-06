@@ -31,6 +31,7 @@ import { checkQueryParams } from '@/utils/catalog'
 import FilterSvg from '@/components/elements/FilterSvg/FilterSvg'
 
 const CatalogPage = ({ query }: { query: IQueryParams }) => {
+  // console.log(query)
   const mode = useStore($mode)
   const carBrands = useStore($carBrands)
   const productGroup = useStore($productGroup)
@@ -42,7 +43,9 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
   const [isPriceRangeChanged, setIsPriceRangeChanged] = useState(false)
   const pagesCount = Math.ceil(avtoParts.count / 20)
   const isValidOffset =
-    query.offset && !isNaN(+query.offset) && +query.offset > 0
+    query !== undefined
+      ? query.offset && !isNaN(+query.offset) && +query.offset > 0
+      : false
   const [currentPage, setCurrentPage] = useState(
     isValidOffset ? +query.offset - 1 : 0
   )
@@ -75,9 +78,7 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
 
         resetPagination(data)
         return
-      }
-
-      if (isValidOffset) {
+      } else {
         if (+query.offset > Math.ceil(data.count / 20)) {
           router.push(
             {
@@ -104,9 +105,6 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
         setAvtoParts(isFilterInQuery ? filteredAvtoParts : result)
         return
       }
-
-      setCurrentPage(0)
-      setAvtoParts(isFilterInQuery ? filteredAvtoParts : data)
     } catch (error) {
       toast.error((error as Error).message)
     } finally {

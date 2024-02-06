@@ -5,7 +5,6 @@ import { toast } from 'react-toastify'
 import { useCallback, useEffect, useState } from 'react'
 import { useStore } from 'effector-react'
 import Layout from '@/components/layout/Layout'
-import useRedirectByUserCheck from '@/hooks/useRedirectByUserCheck'
 import { IQueryParams } from '@/types/catalog'
 import { $avtoPart, setAvtoPart } from '@/context/avtoPart'
 import { getAvtoPartFx } from '@/app/api/avtoParts'
@@ -14,8 +13,8 @@ import Custom404 from '../404'
 import Breadcrumbs from '@/components/modules/Breadcrumbs/Breadcrumbs'
 
 function CatalogPartPage({ query }: { query: IQueryParams }) {
-  const { shouldLoadContent } = useRedirectByUserCheck()
   const avtoPart = useStore($avtoPart)
+  console.log(query)
   const [error, setError] = useState(false)
   const router = useRouter()
   const getDefaultTextGenerator = useCallback(
@@ -41,6 +40,7 @@ function CatalogPartPage({ query }: { query: IQueryParams }) {
   }, [lastCrumb, avtoPart])
 
   const loadAvtoPart = async () => {
+    // if (query !== undefined) {
     try {
       const data = await getAvtoPartFx(`/avto-parts/find/${query.partId}`)
 
@@ -53,12 +53,13 @@ function CatalogPartPage({ query }: { query: IQueryParams }) {
     } catch (error) {
       toast.error((error as Error).message)
     }
+    // }
   }
 
   return (
     <>
       <Head>
-        <title>Land Motors | {shouldLoadContent ? avtoPart.name : ''}</title>
+        <title>Land Motors | {avtoPart.name}</title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -68,31 +69,29 @@ function CatalogPartPage({ query }: { query: IQueryParams }) {
       {error ? (
         <Custom404 />
       ) : (
-        shouldLoadContent && (
-          <Layout>
-            <main>
-              <Breadcrumbs
-                getDefaultTextGenerator={getDefaultTextGenerator}
-                getTextGenerator={getTextGenerator}
-              />
-              <PartPage />
-              <div className="overlay" />
-            </main>
-          </Layout>
-        )
+        <Layout>
+          <main>
+            <Breadcrumbs
+              getDefaultTextGenerator={getDefaultTextGenerator}
+              getTextGenerator={getTextGenerator}
+            />
+            <PartPage />
+            <div className="overlay" />
+          </main>
+        </Layout>
       )}
     </>
   )
 }
-// const meta = document.createElement('meta')
-// meta.name = 'keywords'
-// meta.content = ''
-// document.head.appendChild(meta)
 
 export async function getServerSideProps(context: { query: IQueryParams }) {
   return {
     props: { query: { ...context.query } },
   }
 }
+// const meta = document.createElement('meta')
+// meta.name = 'keywords'
+// meta.content = ''
+// document.head.appendChild(meta)
 
 export default CatalogPartPage

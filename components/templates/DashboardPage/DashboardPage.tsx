@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from 'react'
 import { toast } from 'react-toastify'
 import { getBestsellersOrNewPartsFx } from '@/app/api/avtoParts'
@@ -7,7 +8,7 @@ import styles from '@/styles/dashboard/index.module.scss'
 import { useStore } from 'effector-react'
 import { $mode } from '@/context/mode'
 import DashboardSlider from '@/components/modules/DashboardPage/DashboardSlider'
-import MassangeSvg from '@/components/elements/MassangeSvg/MassangeSvg'
+import ServiceForm from '@/components/modules/FeedbackForm/ServiceForm'
 // import { $shoppingCart } from '@/context/shopping-cart'
 // import { AnimatePresence, motion } from 'framer-motion'
 // import CartAlert from '@/components/modules/DashboardPage/CartAlert'
@@ -92,17 +93,40 @@ const DashboardPage = () => {
           </h3>
           <DashboardSlider items={newParts.rows || []} spinner={spinner} />
         </div>
-        <div className={styles.dashboard__chat}>
-          <div className={styles.dashboard__chat__massandge} />
-          <div className={styles.dashboard__chat__social} />
-          <div className={styles.dashboard__chat__inner}>
-            <div className={styles.dashboard__chat__inner__mask} />
-            <div className={styles.dashboard__chat__inner__batton}>
-              <div className={styles.dashboard__chat__inner__batton__pulse} />
-              <div className={styles.dashboard__chat__inner__batton__block}>
-                <MassangeSvg />
-              </div>
+        <div className={`${styles.dashboard__service} ${darkModeClass}`}>
+          <div
+            className={`${styles.dashboard__service__wrapper} ${darkModeClass}`}
+          >
+            <div
+              className={`${styles.dashboard__service__wrapper__title} ${darkModeClass}`}
+            >
+              Записаться в автосервис
             </div>
+            <div
+              className={`${styles.dashboard__service__wrapper__text} ${darkModeClass}`}
+            >
+              <div>
+                Компания Land Motors предоставляет услуги по ремонту и
+                обслуживанию автомобилей в нашем автосервисе. Наши опытные
+                механики готовы помочь вам с любыми проблемами, связанными с
+                вашим автомобилем. Мы используем только качественные запчасти и
+                оборудование, чтобы обеспечить нашим клиентам высокий уровень
+                сервиса. Подробнее можно узнать в нашей{' '}
+                <a
+                  href="https://vk.com/landmotors59"
+                  title="Land Motors"
+                  className={`${styles.dashboard__service__wrapper__text__link} ${darkModeClass}`}
+                >
+                  вк группе.
+                </a>
+              </div>
+              <img src="/img/serviceImg.jpg" alt="Сервис Land Motors" />
+            </div>
+          </div>
+          <div
+            className={`${styles.dashboard__service__form} ${darkModeClass}`}
+          >
+            <ServiceForm />
           </div>
         </div>
         <div className={styles.dashboard__about}>

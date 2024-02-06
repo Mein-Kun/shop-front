@@ -28,6 +28,8 @@ import styles from '@/styles/part/index.module.scss'
 import FavoriteSvgOn from '@/components/elements/FavoriteSvg/FavoriteSvgOn'
 import FavoriteSvgOff from '@/components/elements/FavoriteSvg/FavoriteSvgOff'
 import { $favorites } from '@/context/favorites'
+import { useRouter } from 'next/router'
+import { IQueryParams } from '@/types/catalog'
 
 const PartPage = () => {
   const mode = useStore($mode)
@@ -42,6 +44,7 @@ const PartPage = () => {
   const isInFavorite = favorites.some((item) => item.partId === avtoPart.id)
   const spinnerToggleCart = useStore(removeFromCartFx.pending)
   const spinnerSlider = useStore(getAvtoPartsFx.pending)
+  const router = useRouter()
 
   useEffect(() => {
     loadAvtoPart()
@@ -57,10 +60,16 @@ const PartPage = () => {
     }
   }
 
-  const updateFavorite = async () =>
-    addToFavoriteItem(user.userId, avtoPart.id, isInFavorite)
-  const toggleToCart = () =>
-    toggleCartItem(user.username, avtoPart.id, isInCart)
+  const updateFavorite = async () => {
+    if (user.userId) {
+      addToFavoriteItem(user.userId, avtoPart.id, isInFavorite)
+    } else {router.push('/auth')}
+  }
+  const toggleToCart = () => {
+    if (user.username) {
+      toggleCartItem(user.username, avtoPart.id, isInCart)
+    } else {router.push('/auth')}
+  }
 
   return (
     <section>

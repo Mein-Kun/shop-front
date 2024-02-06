@@ -57,7 +57,7 @@ const Breadcrumbs = ({
     <div className="container">
       <ul className={styles.breadcrumbs}>
         <li className={styles.breadcrumbs__item}>
-          <Link href="/dashboard" passHref legacyBehavior>
+          <Link href="/" passHref legacyBehavior>
             <a>
               <span
                 className={`${styles.breadcrumbs__item__icon} ${darkModeClass}`}

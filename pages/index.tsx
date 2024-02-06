@@ -1,19 +1,33 @@
-import AuthPage from '@/components/templates/AuthPage/AuthPage'
 import Head from 'next/head'
+import Layout from '@/components/layout/Layout'
+import DashboardPage from '@/components/templates/DashboardPage/DashboardPage'
+import Breadcrumbs from '@/components/modules/Breadcrumbs/Breadcrumbs'
 
-function Auth() {
+function Dashboard() {
+  const getDefaultTextGenerator = () => ''
+  const getTextGenerator = () => ''
+
   return (
-    <main>
+    <>
       <Head>
-        <title>Land Motors - Авторизация</title>
+        <title>Land Motors | Главная</title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="widht=device-widht, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/svg" sizes="32x32" href="/img/logo.jpg" />
       </Head>
-      <AuthPage />
-    </main>
+      <Layout>
+        <main>
+          <Breadcrumbs
+            getDefaultTextGenerator={getDefaultTextGenerator}
+            getTextGenerator={getTextGenerator}
+          />
+          <DashboardPage />
+          <div className="overlay" />
+        </main>
+      </Layout>
+    </>
   )
 }
 
-export default Auth
+export default Dashboard

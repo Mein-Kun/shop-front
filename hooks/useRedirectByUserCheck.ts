@@ -1,16 +1,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { checkUserAuthFx } from '@/app/api/auth'
-import { setUser } from '@/context/user'
 import { useRouter } from 'next/router'
 import { useEffect, useRef, useState } from 'react'
 
-const useRedirectByUserCheck = (isAuthPage = false) => {
+const useRedirectByUserCheck = () => {
   const [shouldLoadContent, setShouldLoadContent] = useState(false)
   const router = useRouter()
   const shouldCheckAuth = useRef(true)
 
   useEffect(() => {
-    if (shouldCheckAuth.current) {
+    if (shouldCheckAuth.current && localStorage.getItem('access_token')) {
       shouldCheckAuth.current = false
       checkUser()
     }
@@ -22,18 +21,14 @@ const useRedirectByUserCheck = (isAuthPage = false) => {
       accessToken: localStorage.getItem('access_token'),
     })
 
-    if (isAuthPage) {
-      if (!user) {
-        setShouldLoadContent(true)
-        return
-      }
-
-      router.push('/dashboard')
+    if (!user) {
+      setShouldLoadContent(false)
+      router.push('/auth')
       return
     }
 
     if (user) {
-      setUser(user)
+      localStorage.setItem('user', JSON.stringify(user))
       setShouldLoadContent(true)
       return
     }

@@ -76,3 +76,8 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.selected a {
+  background-color: #ec0000;
+  color: #FAFBFC;
+}

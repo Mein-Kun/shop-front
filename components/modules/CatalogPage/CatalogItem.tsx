@@ -12,6 +12,7 @@ import { toggleCartItem } from '@/utils/shopping-cart'
 // import { $user } from '@/context/user'
 import { removeFromCartFx } from '@/app/api/shopping-cart'
 import styles from '@/styles/catalog/index.module.scss'
+import { useRouter } from 'next/router'
 // import { $favorite } from '@/context/favorite'
 // import FavoriteSvgOff from '@/components/elements/FavoriteSvg/FavoriteSvgOff'
 // import FavoriteSvgOn from '@/components/elements/FavoriteSvg/FavoriteSvgOn'
@@ -28,8 +29,15 @@ const CatalogItem = ({ item }: { item: IAvtoPart }) => {
   // )
   const spinner = useStore(removeFromCartFx.pending)
   const darkModeClass = mode === 'dark' ? `${styles.dark_mode}` : ''
+  const router = useRouter()
 
-  const toggleToCart = () => toggleCartItem(user.username, item.id, isInCart)
+  const toggleToCart = () => {
+    if (user.username) {
+      toggleCartItem(user.username, item.id, isInCart)
+    } else {
+      router.push('/auth')
+    }
+  }
   // const updateFavorite = async () =>
   //   addToFavoriteItem(user.userId, item.id, isInFavorite)
   return (

@@ -8,7 +8,6 @@ import LogoutSvg from '@/components/elements/LogoutSvg/LogoutSvg'
 import { withClickOutside } from '@/utils/withClickOutside'
 import styles from '@/styles/profileDropDown/index.module.scss'
 // import { $user } from '@/context/user'
-import { logoutFx } from '@/app/api/auth'
 import { useRouter } from 'next/router'
 
 const ProfileDropDown = forwardRef<HTMLDivElement, IWrappedComponentProps>(
@@ -22,7 +21,7 @@ const ProfileDropDown = forwardRef<HTMLDivElement, IWrappedComponentProps>(
     const toggleProfileDropDown = () => setOpen(!open)
 
     const handleLogout = async () => {
-      await logoutFx('/users/logout')
+      localStorage.clear()
       router.push('/')
     }
 

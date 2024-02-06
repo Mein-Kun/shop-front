@@ -29,9 +29,7 @@ export const singInFx = createEffect(
       toast.warning(data.warningMessage)
       return
     }
-    // console.log(data)
     localStorage.setItem('access_token', data.access_token)
-    localStorage.setItem('user', JSON.stringify(data.user))
     toast.success('Вход выполнен!')
 
     return data
@@ -58,10 +56,10 @@ export const checkUserAuthFx = createEffect(
   }
 )
 
-export const logoutFx = createEffect(async (url: string) => {
-  try {
-    await api.get(url)
-  } catch (error) {
-    toast.error((error as Error).message)
-  }
-})
+// export const logoutFx = createEffect(async (url: string) => {
+//   try {
+//     await api.get(url)
+//   } catch (error) {
+//     toast.error((error as Error).message)
+//   }
+// })

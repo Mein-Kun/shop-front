@@ -21,7 +21,7 @@ const PartImagesList = () => {
         <>
           <div className={styles.part__images__main}>
             <img
-              src={currentImgSrc || avtoPart.images}
+              src={'/img/product_img/BM99001MAL.png'}
               alt={avtoPart.parts_name}
             />
           </div>

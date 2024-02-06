@@ -23,8 +23,7 @@ const AdminOrder = ({ showDoneIcon }: IOrderAccordionProps) => {
   const shoppingCart = useStore($shoppingCart)
   const darkModeClass = mode === 'dark' ? `${styles.dark_mode}` : ''
   const isMedia550 = useMediaQuery(550)
-  const [open, setOpen] = useState(true)
-
+  const [open, setOpen] = useState(false)
   const toggleCartDropDown = () => {
     setOpen(!open)
   }
